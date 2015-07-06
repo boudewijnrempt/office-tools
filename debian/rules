@@ -1,0 +1,24 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/makefile.mk
+include /usr/share/cdbs/1/class/qmake.mk
+
+PACKAGE_TARGETS :=  $(foreach pkg,$(DEB_ALL_PACKAGES),binary/$(pkg))
+$(PACKAGE_TARGETS)::
+	[ ! -f debian/$(notdir $@).aegis ] || aegis-deb-add -control debian/$(notdir $@)/DEBIAN/control .. debian/$(notdir $@).aegis=_aegis
+
+CXXFLAGS += -Werror
+CFLAGS += -Werror
+
+#ifneq (,$(filter debug,$(DEB_BUILD_OPTIONS)))
+#  DEB_QMAKE_CONFIG_VAL := debug
+#else
+#  DEB_QMAKE_CONFIG_VAL := release
+#endif
+
+DEB_QMAKE_CONFIG_VAL := release
+DEB_QMAKE_ARGS := PREFIX=/usr office-tools.pro
+DEB_QMAKE_CONFIG_VAL += debug
+DEB_DH_INSTALL_SOURCEDIR := debian/tmp
+#DEB_DH_INSTALL_ARGS := --list-missing

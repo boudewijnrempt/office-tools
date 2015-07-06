@@ -1,0 +1,278 @@
+<testdefinition version="0.1">
+  <suite name="office-tools-tests">
+
+    <set description="Tests for PdfThumbProvider class." name="/usr/lib/office-tools-tests/ut_pdfthumbprovider">
+      <case description="Object is created successfully." name="ut_pdfthumbprovider-testCreation" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfthumbprovider testCreation</step>
+      </case>
+      <case description="Getting page count is successfully." name="ut_pdfthumbprovider-testGetPageCount" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfthumbprovider testGetPageCount</step>
+      </case>
+      <case description="Getting page size is successfully." name="ut_pdfthumbprovider-testGetThumbSize" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfthumbprovider testGetThumbSize</step>
+      </case>
+      <environments>
+        <scratchbox>true</scratchbox>
+        <hardware>true</hardware>
+      </environments>
+    </set>
+
+    <set description="Tests for PdfLoader class." name="/usr/lib/office-tools-tests/ut_pdfloader">
+      <case description="PdfLoader is created successfully." name="ut_pdfloader-testCreation" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfloader testCreation</step>
+      </case>
+      <case description="PdfLoader loads documents." name="ut_pdfloader-testDocumentLoadAndSizes" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfloader testDocumentLoadAndSizes</step>
+      </case>
+      <case description="PdfLoader sets current page." name="ut_pdfloader-testCurrentPage" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfloader testCurrentPage</step>
+      </case>
+      <case description="PdfLoader gives page image." name="ut_pdfloader-testGetPageImage" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfloader testGetPageImage</step>
+      </case>
+      <environments>
+        <scratchbox>true</scratchbox>
+        <hardware>true</hardware>
+      </environments>
+    </set>
+
+    <set description="Tests for PdfPageWidget class." name="/usr/lib/office-tools-tests/ut_pdfpagewidget">
+      <case description="Object is created successfully." name="ut_pdfpagewidget-testCreation" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfpagewidget testCreation</step>
+      </case>
+      <case description="Updating sizes works." name="ut_pdfpagewidget-testUpdateSize" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfpagewidget testUpdateSize</step>
+      </case>
+      <case description="Painting from test file works." name="ut_pdfpagewidget-testPainter" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfpagewidget testPainter</step>
+      </case>
+      <case description="Selecting text works." name="ut_pdfpagewidget-testSelectText" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfpagewidget testSelectText</step>
+      </case>
+      <environments>
+        <scratchbox>true</scratchbox>
+        <hardware>true</hardware>
+      </environments>
+    </set>
+
+    <set description="Tests for ZoomLevel class." name="/usr/lib/office-tools-tests/ut_zoomlevel">
+      <case description="Set up mode in default constructor." name="ut_zoomlevel-testModeConstructor" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_zoomlevel testModeConstructor</step>
+      </case>
+      <case description="Set up factor in default constructor." name="ut_zoomlevel-testFactorConstructor" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_zoomlevel testFactorConstructor</step>
+      </case>
+      <case description="Equal operator works correctly." name="ut_zoomlevel-testEqual" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_zoomlevel testEqual</step>
+      </case>
+      <case description="Not equal operator works correctly." name="ut_zoomlevel-testNotEqual" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_zoomlevel testNotEqual</step>
+      </case>
+      <!--<case description="isFitTo -method works correctly." name="ut_zoomlevel-testIsFitTo" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_zoomlevel testIsFitTo</step>
+    </case>-->
+      <environments>
+        <scratchbox>true</scratchbox>
+        <hardware>true</hardware>
+      </environments>
+    </set>
+
+    <set description="Tests for ActionPool class." name="/usr/lib/office-tools-tests/ut_actionpool">
+      <case description="Getting singelton is successfully." name="ut_actionpool-testSingelton" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_actionpool testSingelton</step>
+      </case>
+      <case description="Getting action is successfully." name="ut_actionpool-testGetAction" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_actionpool testGetAction</step>
+      </case>
+      <case description="Getting incorrect action fails." name="ut_actionpool-testNegativeGetAction" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_actionpool testNegativeGetAction</step>
+      </case>
+      <environments>
+        <scratchbox>true</scratchbox>
+        <hardware>true</hardware>
+      </environments>
+    </set>
+
+    <set description="Tests for OfficeViewerSpreadsheet class." name="/usr/lib/office-tools-tests/ut_spreadsheet">
+	<case description="Object is created successfully." name="ut_spreadsheet-testCreation" type="Functional">
+	  <step>/usr/lib/office-tools-tests/ut_spreadsheet testCreation</step>
+  	</case>
+        <case description="Content created sucessfully." name="ut_spreadsheet-testCreateContent" type="Functional">
+            <step>/usr/lib/office-tools-tests/ut_spreadsheet testCreateContent</step>
+        </case>
+        <case description="Thumbnails created successfully." name="ut_spreadsheet-testPreview" type="Functional">
+          <step>/usr/lib/office-tools-tests/ut_spreadsheet testPreview</step>
+        </case>
+        <case description="Searching for a string successfully" name="ut_spreadsheet-testSearch" type="Functional">
+	  <step>/usr/lib/office-tools-tests/ut_spreadsheet testSearch</step>
+	</case>
+        <case description="Fixed indicators triggered successfully" name="ut_spreadsheet-testFixedIndicators" type="Functional">
+	  <step>/usr/lib/office-tools-tests/ut_spreadsheet testFixedIndicators</step>
+	</case>
+        <case description="Floating indicators triggered successfully" name="ut_spreadsheet-testFloatingIndicators" type="Functional">
+	  <step>/usr/lib/office-tools-tests/ut_spreadsheet testFloatingIndicators</step>
+	</case>
+        <case description="No indicators triggered successfully" name="ut_spreadsheet-testNoIndicators" type="Functional">
+	  <step>/usr/lib/office-tools-tests/ut_spreadsheet testNoIndicators</step>
+	</case>
+    <!--
+    <case description="Document can be searched for text" name="ut_spreadsheet-testSearchText" type="Functional">
+	  <step>/usr/lib/office-tools-tests/ut_spreadsheet testSearchText</step>
+	</case>
+    -->
+      <environments>
+        <scratchbox>true</scratchbox>
+        <hardware>true</hardware>
+      </environments>
+    </set>
+
+    <set description="Tests for ApplicationWindow class." name="/usr/lib/office-tools-tests/ut_applicationwindow">
+      <case description="Object is created successfully." name="ut_applicationwindow-testConstructor" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_applicationwindow testConstructor</step>
+      </case>
+      <case description="Object is deleted properly." name="ut_applicationwindow-testDestructor" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_applicationwindow testDestructor</step>
+      </case>
+      <case description="Normal view is shown successfully." name="ut_applicationwindow-testOpenNormalView" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_applicationwindow testOpenNormalView</step>
+      </case>
+      <!--<case description="All Pages view is shown successfully." name="ut_applicationwindow-testShowAllPagesView" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_applicationwindow testShowAllPagesView</step>
+    </case>-->
+      <case description="All Pages view is not shown." name="ut_applicationwindow-testShowAllPagesViewFailure" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_applicationwindow testShowAllPagesViewFailure</step>
+      </case>
+      <!--<case description="Document Details view is shown successfully." name="ut_applicationwindow-testDocumentDetailsView" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_applicationwindow testDocumentDetailsView</step>
+    </case>-->
+      <case description="Document Details view is not shown." name="ut_applicationwindow-testDocumentDetailsViewFailure" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_applicationwindow testDocumentDetailsViewFailure</step>
+      </case>
+      <!--<case description="File is opened successfully." name="ut_applicationwindow-testOpenFile" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_applicationwindow testOpenFile</step>
+    </case>-->
+      <case description="Opening nonexists file raises error." name="ut_applicationwindow-testOpenFileFailure" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_applicationwindow testOpenFileFailure</step>
+      </case>
+      <case description="Page List is shown successfully." name="ut_applicationwindow-testOpenListPage" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_applicationwindow testOpenListPage</step>
+      </case>
+      <case description="Mime type is chosen according to suffix of file name." name="ut_applicationwindow-testCheckMimeType" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_applicationwindow testCheckMimeType</step>
+      </case>
+      <!--<case description="Visible size of window is correct if orientation is changed." name="ut_applicationwindow-testVisibleOrientationSize" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_applicationwindow testVisibleOrientationSize</step>
+      </case>
+      <case description="Object returns scene manager." name="ut_applicationwindow-testGetSceneManager" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_applicationwindow testGetSceneManager</step>
+      </case>-->
+      <!--<case description="File is marked as a favorite successfully." name="ut_applicationwindow-testFavourite" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_applicationwindow testFavourite</step>
+    </case>
+      <case description="Files are shareable as requested." name="ut_applicationwindow-testSharing" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_applicationwindow testSharing</step>
+    </case>-->
+      <!--<case description="Files are deleted as requested." name="ut_applicationwindow-testDeletion" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_applicationwindow testDeletion</step>
+      </case>-->
+      <environments>
+        <scratchbox>true</scratchbox>
+        <hardware>true</hardware>
+      </environments>
+    </set>
+
+    <set description="Tests for Misc functions." name="/usr/lib/office-tools-tests/ut_misc">
+      <case description="Getting relative point is successfully." name="ut_misc_testgetRelativePoint" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_misc testgetRelativePoint</step>
+      </case>
+      <case description="Getting relative size is successfully." name="ut_misc_testgetRelativeSize" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_misc testgetRelativeSize</step>
+      </case>
+      <case description="Getting relative rect is successfully." name="ut_misc_testgetRelativeRect" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_misc testgetRelativeRect</step>
+      </case>
+      <case description="Getting point from relative point is successfully." name="ut_misc_testtranslateRelativePoint" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_misc testtranslateRelativePoint</step>
+      </case>
+      <case description="Getting size from relative size is successfully." name="ut_misc_testtranslateRelativeSize" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_misc testtranslateRelativeSize</step>
+      </case>
+      <case description="Getting rect from relative rect is successfully." name="ut_misc_testtranslateRelativeRect" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_misc testtranslateRelativeRect</step>
+      </case>
+      <case description="Getting max size that fits in given size is successfully." name="ut_misc_testgetMaxSizeInGivenSize" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_misc testgetMaxSizeInGivenSize</step>
+      </case>
+      <case description="Getting file type for a file is successfully." name="ut_misc_testgetFileTypeFromFile" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_misc testgetFileTypeFromFile</step>
+      </case>
+      <environments>
+        <scratchbox>true</scratchbox>
+        <hardware>true</hardware>
+      </environments>
+    </set>
+
+    <set description="Tests for PdfLoaderThread class." name="/usr/lib/office-tools-tests/ut_pdfloaderthread">
+      <case description="Object is created successfully." name="ut_pdfloaderthread-testCreation" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfloaderthread testCreation</step>
+      </case>
+      <case description="Loading of pages works." name="ut_pdfloaderthread-testLoadPage" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfloaderthread testLoadPage</step>
+      </case>
+      <!--<case description="Getting image of the page works." name="ut_pdfloaderthread-testPdfLoaderGetPageImage" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfloaderthread testPdfLoaderGetPageImage</step>
+      </case>-->
+      <environments>
+        <scratchbox>true</scratchbox>
+        <hardware>true</hardware>
+      </environments>
+    </set>
+
+
+    <set description="Tests for PdfPage class." name="/usr/lib/office-tools-tests/ut_pdfpage">
+      <case description="Object is created successfully." name="ut_pdfpage-testCreation" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfpage testCreation</step>
+      </case>
+      <!--<case description="Object creates content." name="ut_pdfpage-testCreateContent" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfpage testCreateContent</step>
+      </case>
+      <case description="Multiple documents can be loaded." name="ut_pdfpage-testCrashing" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfpage testCrashing</step>
+      </case>
+      <case description="Document can be searched for text." name="ut_pdfpage-testSearchText" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_pdfpage testSearchText</step>
+    </case>-->
+      <environments>
+        <scratchbox>true</scratchbox>
+        <hardware>true</hardware>
+      </environments>
+    </set>
+
+    <set description="Tests for BasePageWidget class." name="/usr/lib/office-tools-tests/ut_basepagewidget">
+      <case description="Object is created successfully." name="ut_basepagewidget-testCreation" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_basepagewidget testCreation</step>
+      </case>
+      <case description="Page index is set up correctly." name="ut_basepagewidget-testPageIndex" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_basepagewidget testPageIndex</step>
+      </case>
+      <environments>
+        <scratchbox>true</scratchbox>
+        <hardware>true</hardware>
+      </environments>
+    </set>
+
+    <set description="Tests for office-tools D-Bus services." name="/usr/lib/office-tools-tests/ut_servicefw">
+      <case description="Office service can be found from service list." name="ut_servicefw-services" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_servicefw services</step>
+      </case>
+      <case description="File can be opened to office-tools by using D-Bus API." name="ut_servicefw-openFile" type="Functional">
+        <step>/usr/lib/office-tools-tests/ut_servicefw openFile</step>
+      </case>
+      <environments>
+        <scratchbox>true</scratchbox>
+        <hardware>true</hardware>
+      </environments>
+    </set>
+
+  </suite>
+</testdefinition>

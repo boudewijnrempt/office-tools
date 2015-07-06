@@ -1,0 +1,22 @@
+
+1. Memory handling of pdf document
+- Make office-tools to delete all PDF page images if application is not active
+
+2. PDF document link handling
+- Add support only for TOC type links and http links
+
+3. Coding style
+- Make sure that new external enum types will NOT fail the compiling
+  Ex. Update of poppler with new action types must not break office-tools build
+
+4. Thumb view
+- Thumb view should start with current page in middle of view
+
+5. Test opening of negative cases
+- File locked
+- Mime type not supported
+- No read rights
+- Corrupted PDF file
+
+6. Test big pdf file
+- Get some book as pdf

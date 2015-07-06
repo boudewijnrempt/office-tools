@@ -1,0 +1,57 @@
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN" "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node>
+    <interface name="com.nokia.maemo.meegotouch.OfficeToolsInterface">
+        <doc>
+            <arg tag="brief">
+                Interface for opening office files.
+            </arg>
+            <arg tag="details">
+                Interface for opening office files..
+            </arg>
+        </doc>
+        <method name="OpenFile">
+            <!--doc>
+                <arg tag="brief">
+                    Method called to launch office document viewer for viewing
+                    selected file.
+                </arg>
+                <arg tag="details">
+                    The document application accepts PDF and most MS formats
+                    as files which it can render.
+
+                    In the future more filetypes may be supported.
+
+                    If the opened filetype is not supported, error message is
+                    is shown.
+                </arg>
+            </doc-->
+	    <arg name="filename" type="s" direction="in"/>
+            <arg name="" type="b" direction="out"/>
+        </method>
+        <method name="launchFile">
+            <!--doc>
+                <arg tag="brief">
+                    Method called to launch office document viewer for viewing
+                    selected file.              
+                </arg>
+                <arg tag="details">
+                    The document application accepts PDF and most MS formats
+                    as files which it can render.
+
+                    In the future more filetypes may be supported.
+
+                    If the opened filetype is not supported, error message is      
+                    is shown.
+                </arg>
+            </doc-->
+	    <arg name="filename" type="s" direction="in"/>
+            <arg name="" type="b" direction="out"/>
+        </method>
+        <signal name="showFrontPage">
+        </signal>
+        <signal name="lookForPopup">
+        </signal>
+        <signal name="closeFile">
+        </signal>
+    </interface>
+</node>

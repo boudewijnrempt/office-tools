@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Office 
+Icon=icon-l-documents
+Exec=invoker --type=m /usr/bin/office-tools
+MimeType=application/pdf;application/msword;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/vnd.openxmlformats-officedocument.presentationml.presentation;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;application/mspowerpoint;application/excel;application/vnd.openxmlformats-officedocument.wordprocessingml.template;text/plain;application/vnd.oasis.opendocument.text;application/x-vnd.oasis.opendocument.text;application/vnd.openxmlformats-officedocument.spreadsheetml.template;application/vnd.oasis.opendocument.spreadsheet;application/x-vnd.oasis.opendocument.spreadsheet;application/vnd.openxmlformats-officedocument.presentationml.template;application/vnd.ms-powerpoint;application/vnd.openxmlformats-officedocument.presentationml.slideshow;application/vnd.oasis.opendocument.presentation;application/x-vnd.oasis.opendocument.presentation;application/vnd.ms-excel;
+X-Maemo-Service=com.nokia.OfficeToolsService
+NotShowIn=X-MeeGo;
+X-MeeGo-Logical-Id=qtn_comm_appname_offi
+X-MeeGo-Translation-Catalog=officetools

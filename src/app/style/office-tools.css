@@ -1,0 +1,392 @@
+@const HEIGHT_TOOLBARITEM: 4mm;
+@const HEIGHT_FINDTOOLBARITEM: 3mm;
+
+#inputBar
+{
+    preferred-size: 366 -1;
+    minimum-size: 366 -1;
+    maximum-size: 366 -1;
+}
+
+#inputBar.Landscape
+{
+    preferred-size: 740 -1;
+    minimum-size: 740 -1;
+    maximum-size: 740 -1;
+}
+
+#searchMagnifier
+{
+    margin-right: $INDENT_DEFAULT;
+    margin-top: $MARGIN_LARGE;
+    margin-bottom: $MARGIN_LARGE;
+}
+
+#searchClear
+{
+    margin-right: $MARGIN_MEDIUM;
+    minimum-size: $SIZE_BUTTON $SIZE_BUTTON;
+    maximum-size: $SIZE_BUTTON $SIZE_BUTTON;
+    preferred-size: $SIZE_BUTTON $SIZE_BUTTON;
+    icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
+}
+
+#CommonViewHeaderSpinner
+{
+    margin-right: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#iconBar
+{
+    preferred-size: 366 -1;
+    minimum-size: 366 -1;
+    maximum-size: 366 -1;
+}
+
+#iconBar.Landscape
+{
+    preferred-size: 740 -1;
+    minimum-size: 740 -1;
+    maximum-size: 740 -1;
+}
+
+#viewerBackground
+{
+    background-color: #6b6e70;
+}
+
+#ListPageUSBBackground
+{
+    background-color: #000000;
+}
+
+#ListPageNormalBackground
+{
+    background-color: #ffffff;
+}
+
+#ProgressBarMargin
+{
+    margin-left: $MARGIN_XLARGE;
+    margin-right: $MARGIN_XLARGE;
+}
+
+#CommonProgressBar  {                            
+    known-bar-texture: "color15-meegotouch-progressindicator-bar-known-texture";
+    unknown-bar-texture: "color15-meegotouch-progressindicator-bar-unknown-texture";
+}
+
+#CommonTitleInverted {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#CommonSheetHeaderButtonAccentInverted {
+    background-image: color15-meegotouch-sheet-button-accent-inverted-background 20px 20px 20px 20px;
+}
+
+#CommonSheetHeaderButtonAccentInverted:pressed {
+    background-image: color15-meegotouch-sheet-button-accent-inverted-background-pressed 20px 20px 20px 20px;
+}
+
+#CommonItemInfo {   
+       margin-left: 0                                                              
+}
+
+#CommonHeaderPanel {
+    background-image: color15-meegotouch-view-header-fixed 15px 15px 15px 15px;
+}
+
+#CommonHeaderPanel:pressed {
+    background-image: color15-meegotouch-view-header-fixed 15px 15px 15px 15px;
+}
+
+MApplicationWindowStyle#ViewerToolbar {
+    navigation-bar-style-name:"MNavigationBarStyleInverted";
+    tool-bar-style-name:"MToolBarStyleInverted";
+    tab-bar-style-name:"MToolbarTabStyleInverted";
+}
+
+MApplicationWindowStyle#FrontPageToolbar {
+    navigation-bar-style-name:"MNavigationBarStyle";
+    tool-bar-style-name:"MToolBarStyle";
+    tab-bar-style-name:"MToolbarTabStyle";
+}
+
+#CommonEmptyStateTitleKeyword {
+    color: $COLOR_ACCENT15;
+}
+
+#TopToolBarDocument {
+    background-color: #000000;
+    background-opacity: 0.8;
+    minimum-size: 100% 5.6mm;
+    preferred-size: 100% 5.6mm;
+    maximum-size: 100% 5.6mm;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#TopToolBarSpreadsheet {
+    background-color: #000000;
+    background-opacity: 0.8; 
+    minimum-size: 100% 8mm;
+    preferred-size: 100% 8mm;
+    maximum-size: 100% 8mm;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#CommonSingleInputFieldInverted {
+    margin-top: $MARGIN_MEDIUM;
+    margin-bottom: $MARGIN_MEDIUM;
+    padding-right: 52px; /* needed for showing the icons */
+}
+
+#CommonSingleInputFieldInverted:error {
+    background-image: meegotouch-textedit-inverted-background-error $CORNER_MARGINS;
+}
+
+#findToolbar
+{
+    background-image: ;
+    background-color: #000000;
+    minimum-size: 100% 6.4mm;
+    preferred-size: 100% 6.4mm;
+    maximum-size: 100% 6.4mm;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: $PADDING_MEDIUM;
+}
+
+#findButton
+{
+    background-image: "meegotouch-textedit-button-inverted-background" 15px 15px 15px 15px;
+    text-color:       #ffffff;
+    minimum-size:     42 43;
+    preferred-size:   42 43;
+    maximum-size:     42 43;
+    margin-top:       10;
+    margin-bottom:    11;
+    margin-left:      $MARGIN_MEDIUM;
+    margin-right:     $MARGIN_MEDIUM;
+}
+
+#findButton:pressed
+{
+    background-image: "meegotouch-textedit-button-inverted-background-pressed" 15px 15px 15px 15px;
+}
+
+#jumpToToolbar
+{
+    background-image: ;
+    background-color: #000000;
+    minimum-size: 100% 6.4mm;
+    preferred-size: 100% 6.4mm;
+    maximum-size: 100% 6.4mm;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#imToolbarButton.Landscape
+{
+    background-image: "meegotouch-keyboard-toolbar-button" 15px 15px 15px 15px;
+    margin-top:      $MARGIN_DOUBLE; 
+    margin-bottom:   $MARGIN_SMALL; 
+    margin-left:     0;
+    margin-right:    0;
+    text-color:      #000000;
+    minimum-size:    16.2mm 4.0mm;                                              
+    preferred-size:  16.2mm 4.0mm;
+    maximum-size:    16.2mm 4.0mm;                        
+    press-feedback: ;                               
+    release-feedback: ;                                     
+}
+#imToolbarButton.Portrait
+{
+    background-image: "meegotouch-keyboard-toolbar-button" 15px 15px 15px 15px;
+    margin-top:      $MARGIN_DOUBLE; 
+    margin-bottom:   $MARGIN_SMALL; 
+    margin-left:     0;
+    margin-right:    0;
+    text-color:      #000000;
+    minimum-size:    11.6mm 4.0mm;                                              
+    preferred-size:  11.6mm 4.0mm;
+    maximum-size:    11.6mm 4.0mm;                        
+    press-feedback: ;                               
+    release-feedback: ;                                     
+}     
+#pageCounterLabel
+{
+    font: $FONT_FAMILY 18;
+    preferred-size: 80 60;
+    background-color: #000000;
+    background-opacity: 0.5;
+    color: #F9A427;
+}
+#thumbpageCounterLabel
+{
+    font: $FONT_FAMILY 10;
+    preferred-size: 40 20;
+    background-color: #000000;
+    background-opacity: 0.5;
+    color: #F9A427;
+}
+
+MTextEditStyle#searchNoMatches
+{
+    background-image: meegotouch-textedit-background-error;
+}
+
+MAbstractLayoutPolicyStyle#AllPagesPage2PageLayoutPolicy
+{
+    vertical-spacing: $MARGIN_DOUBLE;
+    horizontal-spacing: $MARGIN_LARGE;
+}
+
+#AllPages2ColumnsWidget.Landscape 
+{
+    preferred-size: 41.2mm 36.6mm;
+    minimum-size: 41.2mm 36.6mm;
+    maximum-size: 41.2mm 36.6mm;
+    margin-left: 0.2mm;
+    margin-right: 0.2mm;
+    margin-bottom: 0.8mm;
+    background-color: #202122;
+}
+
+#AllPages2ColumnsWidget.Portrait 
+{ 
+    preferred-size: 22.7mm 32.4mm;
+    minimum-size: 22.7mm 32.4mm;
+    maximum-size: 22.7mm 32.4mm;
+    margin-left: 0.2mm;
+    margin-right: 0.2mm;
+    margin-bottom: 0.8mm;
+    background-color: #202122;
+}
+
+
+#AllPages2ColumnsLabel.Landscape
+{
+    minimum-size: 3.6mm 2.8mm;
+    preferred-size: 3.6mm 2.8mm;
+    maximum-size: 3.6mm 2.8mm;
+    margin-top: 0;                   
+    margin-left: 0;                   
+    margin-right: 0;
+    font: $FONT_XSMALL;
+    color: #ffffff;
+    background-color: #000000;
+    background-opacity: 0.6;
+}
+#AllPages2ColumnsLabelHighlight.Landscape
+{
+    minimum-size: 3.6mm 2.8mm;
+    preferred-size: 3.6mm 2.8mm;
+    maximum-size: 3.6mm 2.8mm;
+    margin-top: 0;                   
+    margin-left: 0;                   
+    margin-right: 0;
+    font: $FONT_XSMALL;
+    color: #ffffff;
+    background-color: $COLOR_ACCENT15;
+    background-opacity: 0.6;
+}
+#AllPages2ColumnsLabel.Portrait
+{
+    minimum-size: 3.6mm 2.8mm;
+    preferred-size: 3.6mm 2.8mm;
+    maximum-size: 3.6mm 2.8mm;
+    margin-top: 0;                   
+    margin-left: 0;                   
+    margin-right: 0;
+    font: $FONT_XSMALL;
+    color: #ffffff;
+    background-color: #000000;
+    background-opacity: 0.6;
+}
+#AllPages2ColumnsLabelHighlight.Portrait
+{
+    minimum-size: 3.6mm 2.8mm;
+    preferred-size: 3.6mm 2.8mm;
+    maximum-size: 3.6mm 2.8mm;
+    margin-top: 0;                   
+    margin-left: 0;                   
+    margin-right: 0;
+    font: $FONT_XSMALL;
+    color: #ffffff;
+    background-color: $COLOR_ACCENT15;
+    background-opacity: 0.6;
+}
+#AllPages2ColumnsLabelSpreadsheet.Landscape
+{
+    minimum-size: 41.2mm 2.8mm;
+    preferred-size: 41.2mm 2.8mm;
+    maximum-size: 41.2mm 2.8mm;
+    margin-top: 0;                   
+    margin-left: 0;                   
+    margin-right: 0;
+    font: $FONT_XSMALL;
+    background-color: #000000;
+    background-opacity: 0.6;
+    color: #ffffff;
+}
+#AllPages2ColumnsLabelHighlightSpreadsheet.Landscape
+{
+    minimum-size: 41.2mm 2.8mm;
+    preferred-size: 41.2mm 2.8mm;
+    maximum-size: 41.2mm 2.8mm;
+    margin-top: 0;                   
+    margin-left: 0;                   
+    margin-right: 0;
+    font: $FONT_XSMALL;
+    background-color: $COLOR_ACCENT15;
+    background-opacity: 0.6;
+    color: #ffffff;     
+}
+#AllPages2ColumnsLabelSpreadsheet.Portrait
+{
+    minimum-size: 22.7mm 2.8mm;
+    preferred-size: 22.7mm 2.8mm;
+    maximum-size: 22.7mm 2.8mm;
+    margin-top: 0;                   
+    margin-left: 0;                   
+    margin-right: 0;
+    font: $FONT_XSMALL;
+    background-color: #000000;
+    background-opacity: 0.6;
+    color: #ffffff;
+}
+#AllPages2ColumnsLabelHighlightSpreadsheet.Portrait
+{
+    minimum-size: 22.7mm 2.8mm;
+    preferred-size: 22.7mm 2.8mm;
+    maximum-size: 22.7mm 2.8mm;
+    margin-top: 0;                   
+    margin-left: 0;                   
+    margin-right: 0;
+    font: $FONT_XSMALL;
+    background-color: $COLOR_ACCENT15;
+    background-opacity: 0.6;
+    color: #ffffff;
+}
+#OfficeListPageIndex{
+    list-index-style-name: "CommonSmallListIndex";
+}
+
+MListIndexTooltip MLabelStyle {
+    font: $FONT_FAMILY 48;
+    color: $COLOR_INVERTED_FOREGROUND;
+}
+

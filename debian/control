@@ -1,0 +1,24 @@
+Source: office-tools
+Priority: optional
+Section: office
+Maintainer: Mani C <manikandaprasad.chandrasekar@nokia.com>
+Build-Depends: debhelper (>= 5), libqt4-dev, calligrameego-dev (>=2.3.70-6), libmeegotouch-dev, libpoppler-qt4-dev, libkok-dev, maemo-meegotouch-interfaces-dev, automoc, libsaveas-dev, aegis-builder (>= 1.4), libcontextsubscriber-dev, mce-dev, cdbs, libtracker-sparql-dev, libqtsparql-tracker-live-dev, libqtsparql-dev, libqmsystem2-dev, libx11-dev
+Standards-Version: 3.8.0
+
+Package: office-tools
+Architecture: any
+Depends: ${shlibs:Depends}, calligrameego (>=2.3.70-6), calligra-kchart (>=2.3.70-6), libsaveas, libcontextsubscriber0, libqtsparql0
+Description: Office tools for Harmattan
+
+Package: office-tools-dbg
+Priority: extra
+Architecture: any
+Depends: ${shlibs:Depends}, office-tools (= ${binary:Version})
+Description: Office tools debug package for Harmattan
+
+Package: office-tools-tests
+Architecture: any
+Depends: office-tools, testrunner-lite
+XB-Maemo-CI-Packages: office-tools
+XB-Maemo-CI-Stage: staging, acceptance
+Description: Tests for office-tools

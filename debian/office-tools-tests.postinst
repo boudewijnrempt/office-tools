@@ -1,0 +1,3 @@
+#! /bin/sh
+ln -fs /usr/lib/office-tools/viewer/liboffice-tools-viewer.so /usr/lib/
+

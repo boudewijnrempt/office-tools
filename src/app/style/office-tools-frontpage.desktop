@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Office tools
+Icon=icon-l-documents
+Exec=invoker -s --splash=/usr/share/themes/blanco/meegotouch/images/splash/meegotouch-office-tools-splash.jpg --splash-landscape=/usr/share/themes/blanco/meegotouch/images/splash/meegotouch-office-tools-splash-landscape.jpg --type=m /usr/bin/office-tools -showfrontpage
+OnlyShowIn=X-MeeGo;
+X-MeeGo-Logical-Id=qtn_comm_appname_offi
+X-MeeGo-Translation-Catalog=officetools
+

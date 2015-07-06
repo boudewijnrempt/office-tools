@@ -1,0 +1,4 @@
+[D-BUS Service]
+Interface=com.nokia.maemo.meegotouch.OfficeToolsInterface
+Name=com.nokia.OfficeToolsService
+Exec=/usr/bin/invoker --type=m /usr/bin/office-tools

@@ -1,0 +1,7 @@
+Makefile*
+.obj
+.moc
+core.*
+core
+.cproject
+.project

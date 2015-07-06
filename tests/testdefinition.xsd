@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- definition of simple elements -->
+<xs:element name="scratchbox" type="xs:boolean"/>
+<xs:element name="hardware" type="xs:boolean"/>
+<xs:element name="file" type="xs:string"/>
+
+<!-- definition of attributes-->
+<xs:attribute name="expected_result">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="([0-9])+"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:attribute>
+
+<xs:attribute name="name">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:attribute>
+
+<xs:attribute name="description">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:attribute>
+
+<xs:attribute name="subfeature" type="xs:string"/>
+
+<xs:attribute name="timeout">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="([0-9])*"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:attribute>
+<xs:attribute name="type" type="xs:string"/>
+<xs:attribute name="CI" type="xs:boolean"/>
+<xs:attribute name="requirement" type="xs:string"/>
+<xs:attribute name="feature" type="xs:string"/>
+<xs:attribute name="domain" type="xs:string"/>
+<xs:attribute name="version" type="xs:string"/>
+<xs:attribute name="manual" type="xs:boolean"/>
+
+<!--Content restriction required to satisfy the hierarchy in `step`-->
+<xs:complexType name="expected_result_restriction">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="expected_result"/>
+      </xs:extension>
+    </xs:simpleContent>
+</xs:complexType>
+  
+<!-- definition of complex elements-->
+<xs:element name="step">
+  <xs:complexType>
+    <xs:simpleContent>
+      <xs:restriction base="expected_result_restriction">
+        <xs:minLength value="1"/>
+        <xs:attribute ref="expected_result"/>
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="pre_steps">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="step" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="post_steps">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="step" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="case">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="step" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute ref="name" use="required"/>
+    <xs:attribute ref="description" use="required"/>
+    <xs:attribute ref="subfeature"/>
+    <xs:attribute ref="timeout"/>
+    <xs:attribute ref="type"/>
+    <xs:attribute ref="CI"/>
+    <xs:attribute ref="requirement"/>
+    <xs:attribute ref="manual"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="environments">
+  <xs:complexType>
+    <xs:all>
+      <xs:element ref="scratchbox"/>
+      <xs:element ref="hardware"/>
+    </xs:all>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="get">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="file" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="set">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="pre_steps" minOccurs="0"/>
+      <xs:element ref="case" maxOccurs="unbounded"/>
+      <xs:element ref="environments" minOccurs="0"/>
+      <xs:element ref="get" minOccurs="0"/>
+      <xs:element ref="post_steps" minOccurs="0"/>
+    </xs:sequence>
+    
+    <xs:attribute ref="name" use="required"/>
+    <xs:attribute ref="description" use="required"/>
+    <xs:attribute ref="type"/>
+    <xs:attribute ref="feature"/>
+    <xs:attribute ref="timeout"/>
+    <xs:attribute ref="CI"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="suite">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="set" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute ref="name" use="required"/>
+    <xs:attribute ref="domain"/>
+    <xs:attribute ref="type"/>
+    <xs:attribute ref="timeout"/>
+    <xs:attribute ref="CI"/> 
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="testdefinition">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="suite" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute ref="version" use="required"/>
+  </xs:complexType>
+  <!-- define uniqueness of case name in the test package-->
+  <xs:unique name="uniqueCaseName">
+    <xs:selector xpath=".//suite/set/case"/>
+    <xs:field xpath="@name"/>
+  </xs:unique>
+</xs:element>
+</xs:schema>

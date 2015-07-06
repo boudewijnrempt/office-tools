@@ -1,0 +1,1785 @@
+office-tools (0.8.3+1m6+0m6) oneiric; urgency=low
+
+  * This entry has been added by BIFH queue processor
+    version has been changed to 0.8.3+1m6+0m6
+
+ -- BIFH Bot <sysint@maemo.research.nokia.com>  Fri, 04 Nov 2011 14:16:31 +0200
+
+office-tools (0.8.3+1m6) oneiric; urgency=low
+
+  * Fixes Bug 270723 - Documents application does not launch inside sbox 
+
+ -- Soumya Bijjal <soumya.3.bijjal@nokia.com>  Fri, 04 Nov 2011 14:16:30 +0200
+
+office-tools (0.8.3+0m6) maverick; urgency=low
+
+  * This entry has been added by BIFH queue processor
+    version has been changed to 0.8.3+0m6
+
+ -- BIFH Bot <sysint@maemo.research.nokia.com>  Wed, 06 Jul 2011 10:38:02 +0300
+
+office-tools (0.8.3) maverick; urgency=low
+
+  * Fixed: NB#270646 - Too hard to go to next or previous slide in landscape mode
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Wed, 06 Jul 2011 09:38:01 +0200
+
+office-tools (0.8.2) unstable; urgency=low
+
+  * COREWEB: office-tools crashing in KoZoomController::zoomAction
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Thu, 30 Jun 2011 12:25:24 +0200
+
+office-tools (0.8.1) unstable; urgency=low
+
+  * Fixed: NB#265185 - Hidden application menus take too long to appear
+
+ -- Kishore Arepalli <ext-kishore.arepalli@nokia.com>  Mon, 27 Jun 2011 17:03:34 +0300
+
+office-tools (0.8.0) unstable; urgency=low
+
+  * Fixed: NB#268775 - Sharing; Office: Cannot share files with special characters from view menu
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Mon, 27 Jun 2011 10:12:36 +0200
+
+office-tools (0.7.7) unstable; urgency=low
+
+  * Fixed: NB#265185 - Hidden application menus take too long to appear
+
+ -- Kishore Arepalli <ext-kishore.arepalli@nokia.com>  Tue, 21 Jun 2011 13:05:59 +0300
+
+office-tools (0.7.6) unstable; urgency=low
+
+  * Fixed: NB#266169 - Legal bug in office-tools
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Thu, 16 Jun 2011 11:23:07 +0200
+
+office-tools (0.7.5) unstable; urgency=low
+
+  * Fixed: NB#265419 - Files opened Via Browser are not displaying in Front page
+  * Files: NB#265704 - Moving to next/prev PPT-slide on Quick viewer does not work properly 
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Wed, 15 Jun 2011 12:18:32 +0200
+
+office-tools (0.7.4) unstable; urgency=low
+
+  * Fixed: NB#263997 - COREWEB: office-tools 'QGraphicsItem::dragLeaveEvent QGraphicsWidget::focusNextPrevChild '
+  * Fixed: NB#265462 - Crash is observed on deleting an open file 
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Wed, 15 Jun 2011 08:10:22 +0200
+
+office-tools (0.7.3) unstable; urgency=low
+
+  * Fixed: NB#249983 - Improvement, Office tools, Documents; improvement of View details screen
+  * Fixed: NB#264242 - [TASK] VKB should go off While performing scrolling in search.
+  * Fixed: NB#264258 - Progress spinner for delete is not as per ALG
+
+ -- Kishore Arepalli <ext-kishore.arepalli@nokia.com>  Sun, 12 Jun 2011 12:10:41 +0300
+
+office-tools (0.7.2) unstable; urgency=low
+
+  * Fixed: NB#264210 - Two instances of front page noticed for a while in a certain scenario
+  * Fixed: NB#264302 - Smaller font size should be used for Fast scroll bar
+
+ -- Kishore Arepalli <ext-kishore.arepalli@nokia.com>  Sat, 11 Jun 2011 16:41:26 +0300
+
+office-tools (0.7.1) unstable; urgency=low
+
+  * Fixed: NB#264200 - "Zoomlevel" option is not present in viewers view menu of file opened via email.
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Fri, 10 Jun 2011 19:41:55 +0200
+
+office-tools (0.7.0) unstable; urgency=low
+
+  * Fixed: NB#260489 - Not able to open more files at a time
+  * Fixed: NB#262966 - crash while opening pdf file in Documents application
+  * Removed regexp validator, it is not required as we are displaying the
+    numeric keyboard this fixes 247977
+  * Fixed: NB#247977 - Office tools, Jump to page does not working with Hindi number in Arabic language
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Thu, 09 Jun 2011 09:52:44 +0200
+
+office-tools (0.6.9) unstable; urgency=low
+
+  * Fixed: NB#262793 - Crash noticed after searching with large Pdf file
+  * Fixed: NB#259957 - [TASK] Remove dates shown on right side of each list item on Documents list 
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Wed, 08 Jun 2011 08:15:26 +0200
+
+office-tools (0.6.8) unstable; urgency=low
+
+  * Fixed: NB#252581 - Multiple instances of document opens on tapping it few times
+  * Only hide the vbk when tapping on screen after search result was found and don't hide findtoolbar.
+  * Don't start search if it is canceled after typing some search string and before search has started.
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Tue, 07 Jun 2011 09:28:06 +0200
+
+office-tools (0.6.7) unstable; urgency=low
+
+  * Fixed: NB#260605 - When office file is opened in sheet, top of document is hidden behind sheet header
+  * Fixed: NB#261215 - Transition when using search arrows are wrong 
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Mon, 06 Jun 2011 15:46:39 +0200
+
+office-tools (0.6.6) unstable; urgency=low
+
+  * Fixed: NB#242373 - Office - Dialog for old MS office file is not shown 
+  * Fixed: NB#260605 - When office file is opened in sheet, top of document is hidden behind sheet header 
+  * Fixed: NB#261830 - Viewer view does not close on deleting already open file
+  * Fixed: NB#261827 - Crash occurred while searching in Word documents.
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Fri, 03 Jun 2011 11:44:00 +0200
+
+office-tools (0.6.5) unstable; urgency=low
+
+  * Fixed: NB#257080 - temp file is not deleted when sharing document 
+  * Fixed: NB#257516 - Office tools; Excel file in Hong Kong Traditional Chinese doesn't allow panning 
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Wed, 01 Jun 2011 09:22:36 +0200
+
+office-tools (0.6.4) unstable; urgency=low
+
+  * Fix presentation stopping during animation
+  * Fix 259516 - Half page is displayed at minimum zoom level for attached file
+  * Fix 254158 - PPT is displayed at wrong zoom level on changing orientation 
+  * Fix 251979 - Row and column indicators disappear when zooming out over min zoom level
+  * Fixed: NB#258111 - Crash observed when tried to search in Pdf document 
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Tue, 31 May 2011 09:44:20 +0200
+
+office-tools (0.6.3) unstable; urgency=low
+
+  * Fix crash when deleting document from document view
+  * Fixed: NB#217733 - [Performance] "_mapplication is not responding .Close application"
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Thu, 26 May 2011 06:02:55 +0200
+
+office-tools (0.6.2) unstable; urgency=low
+
+  * Fix 255354 - Documents: search tool not working properly
+  * Fixed: NB#246988 - Office Tools; The date is clipped in Chinese PRC.
+  * Fixed: NB#255501 - Office tools crashes with SIG11 when attempt to cancel the viewing of xls document
+  * Fixed: NB#256594 - Sliding to next slide is not smooth in higher zoom levels for Presentation
+  * Fixed: NB#246874 - Transition for opening quick viewer is not correct
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Wed, 25 May 2011 12:03:37 +0200
+
+office-tools (0.6.1) unstable; urgency=low
+
+  * Fixed: NB#257463 - Attached document crashes in thumbnail view
+  * Improve preformance of searching in text documents
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Mon, 23 May 2011 10:06:57 +0200
+
+office-tools (0.6.0) unstable; urgency=low
+
+  * Fixed: NB#234075 - 'Clear' button is not available in 'find in document' mode
+  * Fixed: NB#255950 - Locales: Documents: the list is not in correct order according to date
+  * Fixed: NB#243127 - Search field should show a spinner while the search operation is being performed
+  * Fixed: NB#159977 - Failed to render images in all pages view for files
+  * Fixed: NB#217733 - [Performance] "_mapplication is not responding .Close application"
+  * Fixed: NB#255845 - Documents opening is not smooth
+
+ -- Mani Chandrasekar <manikandaprasad.chandrasekar@nokia.com>  Mon, 20 May 2011 11:16:28 +0530
+
+office-tools (0.5.8) unstable; urgency=low
+
+  * Fixed: NB#246874 - Transition for opening quick viewer is not correct
+  * Fixed: NB#217733 - [Performance] "_mapplication is not responding .Close application"
+  * Fixed: NB#255845 - Documents opening is not smooth
+
+ -- Mani Chandrasekar <manikandaprasad.chandrasekar@nokia.com>  Mon, 19 May 2011 13:23:11 +0530
+
+office-tools (0.5.7) unstable; urgency=low
+
+  * Fixed: NB#251553 - Office should not go to idle state when using TV-out
+  * Fixed: NB#254869 - Files open after spinner stops in Main view
+  * Fixed: NB#255832 - Gray color bar is dispalying at the bottom
+  * Fixed: NB#253359 - Office Tools: Metadata not shown on documents (Excel, Word, PDF, Powerpoint)
+  * Fixed: NB#229772 - Implementation:Progress spinner after deleting files
+  * Fixed: NB#257170 - Slide size changes on scrolling in landcape mode with Controls mode on
+
+ -- Kishore Arepalli <ext-kishore.arepalli@nokia.com>  Wed, 18 May 2011 17:18:13 +0300
+
+office-tools (0.5.6) unstable; urgency=low
+
+  * Fix for 253263 - View is clipped on double tapping in a spreadsheet.
+  * Fixed: NB#252359 - File type information for pps files is wrong in view details page 
+  * Fix for 246967 - Spreadsheet should show 1 empty row & column after filled cells
+  * Fix document moved to right if sheet is small
+  * Fix Show last row after changing sheet
+  * Fix checkbox background visible in spreadsheet
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Mon, 16 May 2011 07:41:20 +0200
+
+office-tools (0.5.5) unstable; urgency=low
+
+  * Fixed: NB#253096 - Double tap does not take to Default zoom for Presentation & Document
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Thu, 12 May 2011 11:45:37 +0200
+
+office-tools (0.5.4) unstable; urgency=low
+
+  * Done by Thorsten
+  * Fix - dependency name changed from -dev to binary of calligrameego
+  * Fix background during loading
+
+ -- Sudheer Kumar Chiluveri <sudheer.chiluveri@nokia.com>  Thu, 12 May 2011 11:27:36 +0300
+
+office-tools (0.5.3) unstable; urgency=low
+
+  * New release with dependency name changes (calligrameego* related) in control file. 
+
+ -- Sudheer Kumar Chiluveri <sudheer.chiluveri@nokia.com>  Wed, 11 May 2011 17:11:49 +0300
+
+office-tools (0.5.2) unstable; urgency=low
+
+  * Fixed: NB#241452 - Zooming out looks ugly in many Office documents
+  * Fixed: NB#246898 - Bounce back transition is not smooth when pinching over the max & min zoom levels
+  * Fixed default text for jump to page to show the page numbers
+
+ -- Thorsen Zachmann <thorsten.zachmann@notkia.com>  Wed, 11 May 2011 12:27:31 +0200
+
+office-tools (0.5.1) unstable; urgency=low
+
+  * Fixed: NB#246879 - Controls mode should not be displayed on double tapping in viewer view
+  * Fixed: NB#251741 - Only the top toolbar is displayed on cancelling JumptoPage/Search in Landscape mode
+
+ -- Kishore Arepalli <ext-kishore.arepalli@nokia.com>  Tue, 10 May 2011 09:55:34 +0300
+
+office-tools (0.5-0) unstable; urgency=low
+
+  * Fixed: NB#238852 - [Excel] Column chart is overlapping row and column indicators while panning
+  * Fixed: NB#251958 - A PPT/ODP slide gets clipped before it moves away from screen 
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Mon, 09 May 2011 13:14:15 +0200
+
+office-tools (0.4-15) unstable; urgency=low
+
+  * Fixed: NB#221480 - After copying documents to the device the main is not updated
+  * Fixed: NB#246249 - Thumbnails view should open immediately when toolbar button is tapped
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Mon, 06 May 2011 14:06:17 +0530
+
+office-tools (0.4-14) unstable; urgency=low
+
+  * Fixed: NB#252167 - The first page is always shown during zooming out of a PDF-document
+  * Fixed: NB#246959 - [TASK] Maximum zoom level of spreadsheets is too big
+  * Fixed: NB#252786 - Unable to perform "Remove from favorite" 
+
+ -- Mani Chandrasekar <manikandaprasad.chandrasekar@nokia.com>  Mon, 06 May 2011 13:06:17 +0530
+
+office-tools (0.4-13) unstable; urgency=low
+
+  * Fixed: NB#248087 - Alignment of pages is wrong for PDF files when rotated.
+  * Fixed: NB#251972 - Bounce back takes to the next page (PDF-file) 
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Thu, 05 May 2011 11:36:03 +0200
+
+office-tools (0.4-12) unstable; urgency=low
+
+  * Fixed: NB#250117 - Cannot bring the newly saved file to foreground
+  * Fixed: NB#250996 - Crash observed on opening attached file in office tools
+  * Fixed - Quick viewer should be closed at the same time when the Save as dialog is closed - 245615
+  * Fixed - Crash: Closing a file crashes - 252479
+
+ -- Mani Chandrasekar <manikandaprasad.chandrasekar@nokia.com>  Mon, 4 May 2011 17:38:32 +0530
+
+office-tools (0.4-11) unstable; urgency=low
+
+  * Fixed: NB#251534 - icon-m-toolbar-next is missing in find in document view
+  * Fixed: NB#251551 - Presentation is scrolled down to the next slide after entering search item
+  * Fixed: NB#251784 - Spreadsheet scrolls/repositions itself on cancelling Find/Search
+  * Fixed: NB#252001 - After the user has finished zooming, the page should not move or re-zoom
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Wed, 04 May 2011 07:34:02 +0200
+
+office-tools (0.4-10) unstable; urgency=low
+
+  * Fixed: NB#250960 - Zoom value in viewer view does not change on moving from Custom to fit to page/width
+  * Fixed: NB#245297 - Doc : A grey strip is shown on tapping a page from all pages view in Landscape mode
+  * Fixed: NB#250372 - Able to see "No Documents" label immediatly after launching application
+  * Fixed: NB#221480 - After copying documents to the device the main is not updated
+  * Fixed: NB#249256 - office-tools is using QtSparql tracker direct access + async mode unnecessarily
+  * Fixed: NB#49388 - Stop using MDialog specific methods in office-tools
+
+ -- Kishore Arepalli <ext-kishore.arepalli@nokia.com>  Tue, 03 May 2011 11:45:08 +0300
+
+office-tools (0.4-9) unstable; urgency=low
+
+  * Fixed: NB#244823 - Office tools: File name shown with file type extension in the Save as sheet/dialog
+  * Fixed: NB#246959 - [TASK] Maximum zoom level of spreadsheets is too big
+  * Fixed: NB#241400 - Delay in the display of entered characters in find toolbar for Spreadsheets 
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Mon, 02 May 2011 08:18:29 +0200
+
+office-tools (0.4-8) unstable; urgency=low
+
+  * Fixed: NB#247753 - Enable Splash screen to office tools launching
+  * Fixed: NB#248955 - Unable to see pps and ppsx files in the FP
+  * Closing the viewer when the file is deleted
+
+ -- Mani Chandrasekar <manikandaprasad.chandrasekar@nokia.com>  Mon, 25 Apr 2011 13:58:32 +0530
+
+office-tools (0.4-7) unstable; urgency=low
+
+  * Fixed: NB#243094 - Find toolbar should use slide in/out transition
+  * Fixed: NB#241506 - Find toolbar disappear for few seconds on rotating the device.
+  * Fixed: NB#244043 - VKB should stay open when changing orientation in Jump & Find features 
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Wed, 20 Apr 2011 14:12:12 +0200
+
+office-tools (0.4-6) unstable; urgency=low
+
+  * Fixed: NB#235291 - Scroll indicator not displayed correctly when zooming document.
+  * Fixed: NB#235505 - While Panning down vertically Row indicator is separating from the Horizontal indicator in excel files. 
+  * Fixed: NB#238670 - Row and column indicators are seen on changing orientation when 'no indicators' is selected 
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Wed, 20 Apr 2011 11:58:37 +0200
+
+office-tools (0.4-5) unstable; urgency=low
+
+  * 247912 - Unable to view the documents in the document view
+  * Fixed: NB#245179 - Main view closes on tapping main view icon on file recieved Via bluetooth
+  * Fixed: NB#246898 - Bounce back transition is not smooth when pinching over the max & min zoom levels
+  * Fixed: NB#246039 - Bounce back effect missing on zooming out for PDF
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Tue, 19 Apr 2011 10:10:44 +0200
+
+office-tools (0.4-4) unstable; urgency=low
+
+  * Fixed: NB#245947 - Office Tools: Tracker is not indexing files
+
+ -- Mani Chandrasekar <manikandaprasad.chandrasekar@nokia.com>  Tue, 18 Apr 2011 12:53:42 +0530
+
+office-tools (0.4-3) unstable; urgency=low
+
+  * Fixed: NB#245980 - Header of the main view should not show pressed state
+  * Fixed: NB#240739 - USB mass storage mode is not shown correctly in Finnish
+  * Fixed: NB#244863 - Office-tools crashes with any file received over BT
+  * Fixed: NB#243269 - USB Mass storage mode in OT
+  * Fixed: NB#243079 - Top and bottom bar should slide in at the same time on Viewer UI
+  * Fixed: NB#244784 - Stop using .launch suffix
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Fri, 15 Apr 2011 10:25:45 +0200
+
+office-tools (0.4-2) unstable; urgency=low
+
+  * Fixed: NB#243183 - Sheet name and pagenumber are not present in the toolbar for excel documents.
+  * Fixed: NB#242953 - Alignment of top toolbar is wrong when tapped on Jump to page in landscape mode.
+  * Fixed: NB#244576 - Wrong icons shown for ODS, ODP, ODT and TXT files.
+  * Fixed: NB#241452 - Zooming out looks ugly in many Office documents 
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Fri, 15 Apr 2011 05:45:48 +0200
+
+office-tools (0.4-1) unstable; urgency=low
+
+  * Fixed: NB#231456 - Transition for moving between slides in presentation should be improved
+  * Fixed: NB#246016 - Zoom value in view menu should match zoom level shown 
+  * Fixed: NB#245746 - “No Documents” label is not displaying after disconnecting the USB in mass storage mode
+  * Fixed: NB#226029 - Object menu is launched when we tap on the top of the screen in Front Page.
+  * Fixed: NB#241633 - Taping Documents on the launcher does not reset documents list to the top
+
+ -- Mani Chandrasekar <manikandaprasad.chandrasekar@nokia.com>  Tue, 14 Apr 2011 12:00:26 +0530
+
+office-tools (0.4-0) unstable; urgency=low
+
+  * Fixed: NB#243566 - Documents should disable action buttons in multiselect mode when not available
+  * Fixed: NB#244114 - TXT files do not open
+  * Fixed: NB#241604 - Misuse of TrackerLiveQuery (you should delete the Updaters yourself)
+
+ -- Mani Chandrasekar <manikandaprasad.chandrasekar@nokia.com>  Tue, 13 Apr 2011 10:56:47 +0530
+
+office-tools (0.3-12) unstable; urgency=low
+
+  * Fixed: NB#237112 - OfficeTools: Wrong Translation of §qtn_reco_app_not_responding§ during a random crash for es_419
+  * Fixed: NB#238610 - "No documents" is not displayed after deleting all the documents
+  * Fixed: NB#245472 - Office tools: §qtn_offi_no_documents§ appears in the bottom of the page
+
+ -- Kishore Arepalli <ext-kishore.arepalli@nokia.com>  Mon, 11 Apr 2011 15:23:18 +0300
+
+office-tools (0.3-11) unstable; urgency=low
+
+  * Fixed: NB#244114 - TXT files do not open
+  * Fixed: NB#229761 - Implementation: Thumbnail grid for documents having 1 page/sheet
+  * Fixed: NB#241604 - Misuse of TrackerLiveQuery (you should delete the Updaters yourself)
+  * Fixed: NB#243262 - USB Mass storage mode in OT
+  * Fixed: NB#240739 - USB mass storage mode is not shown correctly in Finnish
+  * Fixed: NB#215947 - Officetool; sorting; The Sorting in Officetool Main view is not remembered. 
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Mon, 11 Apr 2011 07:49:17 +0200
+
+office-tools (0.3-10) unstable; urgency=low
+
+  * Fixed: NB#242105 - [TASK] Remove possibility to pinch to thumbnails view 
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Fri, 08 Apr 2011 13:38:46 +0200
+
+office-tools (0.3-9) unstable; urgency=low
+
+  * Fixed: NB#244092 - Viewer view menu items not in correct order
+  * Fixed: NB#243352 - Able to drag the FP screen by tapping on header “Documents” and dragging
+  * Fixed: NB#241444 - Previously searched keyword does not show in find toolbar 
+  * Fixed: NB#240415 - [TASK] Remove Search text field from Main view
+  * Fixed: NB#242074 - Wrong font in css (office tools)
+  * Fixed: NB#242912 - In Jump to Page, if you enter page number in wrong format info banner is not displaying.
+  * Fixed: NB#242894 - View goes to a random page on changing orientation for a PDF
+  * Fixed: NB#242877 - PDF: Zooming in/out by using double tap often takes to previous page 
+  * Fixed: NB#241290 - View details page layout is not as per spec.
+  * Fixed: NB#243141 - [TASK] Thumbnails view should be updated
+  * Fixed: NB#242136 - [TASK] Viewer toolbar should offer button for accessing thumbnails view
+
+ -- Mani Chandrasekar <manikandaprasad.chandrasekar@nokia.com>  Feb, 08 Apr 2011 14:23:48 +0530
+
+office-tools (0.3-8) unstable; urgency=low
+
+  * Fixed: NB#242152 - Slide changes to next on double tapping presentations
+  * Fixed: NB#229778 - [UI] Implementation: Opening an email with attachment containing office files
+  * Fixed: NB#241153 - On tapping Jump to Page in thumbnail view,the view does not go to default scaling. 
+  * Fixed: NB#239563 - View should go to Main view on tapping "No" in delete dialog
+  * Fixed: NB#238761 - Crash observed when attached document was zoomed repeatedly
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Thu, 07 Apr 2011 10:35:54 +0200
+
+office-tools (0.3-7) unstable; urgency=low
+
+  * Add workaround for Bug 232693 - Error while trying to close large PDf files when the file is loading.
+  * Fix highlighting when text is not found in document. 
+  * Fixed: NB#241231 - Picture in the footer is not displaying properly in the attached document. 
+  * Fixed: NB#240321 - Text truncation in Office tools seems wrong
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Wed, 06 Apr 2011 06:49:45 +0200
+
+office-tools (0.3-6) unstable; urgency=low
+
+  * Fixed: NB#215734 - List items in front page are not as per layout guide
+  * Fixed: NB#238110 - Front page toolbar is not as per layout guide
+  * Fixed: NB#243050 - Delete documents & Share documents are using wrong bottom toolbar
+  * Fixed: NB#234942 - After opening a document and returning back to main view, focus is shown in latest selected document.
+  * Fixed: NB#235589 - Able to see spinner after tapping on files to select in Delete/Share sub view.
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Tue, 05 Apr 2011 06:48:34 +0200
+
+office-tools (0.3-5) unstable; urgency=low
+
+  * Fixed: NB#242442 - The document header is displayed in FULL SCREEN
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Fri, 01 Apr 2011 04:45:55 +0530
+
+office-tools (0.3-4) unstable; urgency=low
+
+  * Fixed: NB#204948 - Office Tools; Zoming, §qtn_offi_user_defined§ doesn't appear after pinching gesture
+  * Fixed: NB#241509 - Rotation after zooming in causes unexpected behavior in Excel document 
+  * Fixed: NB#240205 - Office tools; The menu option label §qtn_comm_command_favorite§ 'add to favourite' is shown on marked as favourite file. 
+  * Fixed: NB#240237 - Not able to see files marked as favourite under group header "Favorites". 
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Fri, 01 Apr 2011 04:45:55 +0200
+
+office-tools (0.3-3) unstable; urgency=low
+
+  * Fixed: NB#240894 - View doesnt go to controls mode on tapping viewer view in Jump to Page
+  * Fixed: NB#240596 - PDF panning speed is very low for big documents
+  * Fixed: NB#241433 - Zoom in with Excel documents happens without bounds
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Thu, 31 Mar 2011 07:09:29 +0200
+
+office-tools (0.3-2) unstable; urgency=low
+
+  * Fixed: NB#215747 - Filter does not search second line of list element in front page
+  * Fixed: NB#235284 - Common overlay header is not according to layout guide.
+  * Fixed: NB#237853 - View returns to first page on changing orientation in text files 
+  * Make scrolling possible while layouting is done for text files
+  * Fixed: NB#207785 - LANKKU: Siced page number is displayed while reading the page. 
+  * Fixed: NB#224186 - Able to see Highligted items after closing find tool bar. 
+  * Fixed: NB#237586 - The first word in the secondary label is getting truncated after tapping on docx and ppt files in portrait mode. 
+  * Fixed: NB#239050 - Text gets selected on double tapping
+  * Fixed: NB#241323 - Crash when double tapping on ODF Presentation 
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Wed, 30 Mar 2011 14:22:46 +0200
+
+office-tools (0.3-1) unstable; urgency=low
+
+  * Fixed: NB#211427 - Typed string is not highlighted in Main view filtering results
+  * Fixed: NB#234796 - Transition for info banner "Select file first" is not smooth on multiple taps.
+  * Fixed: NB#239326 - Able to see toolbar only at the top of the screen when
+  * Find toolbar is closed after launching from Thumbnail view
+  * Fixed: NB#237117 - Internal Hyperlinks are not working in portrait mode for word documents. 
+  * Fixed: NB#240888 - Default string "Search" not present in search toolbar
+  * Fixed: NB#232417 - Files opened from browser do not launch from front page
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Tue, 29 Mar 2011 06:11:08 +0200
+
+office-tools (0.3-0) unstable; urgency=low
+
+  * Fixed: NB#240377 - Share UI is not correct when launched from Main view menu.
+  * Fixed: NB#234761 - Not able to scroll to the last row in spreadsheets
+  * Fixed: NB#237496 - Files marked as favorite do not open on first tap
+  * Added Document header for main view
+
+ -- Mani Chandrasekar <manikandaprasad.chandrasekar@nokia.com>  Mon, 25 Mar 2011 16:05:48 +0530
+
+office-tools (0.2-28) unstable; urgency=low
+
+  * Fixed: NB#233120 - Viewer menu should not offer "2 pages"
+  * Fixed: NB#235049 - Find toolbar is hidden when VKB comes up 
+  * Fixed: NB#237448 - Viewer view toolbar overlaps Jump to page toolbar in portrait mode
+  * Fixed: NB#236430 - Text input field is not displayed when vkb is displayed for JumptoPage/find
+  * Fixed: NB#230042 - Virtual keyboard should not close automatically when typing search string
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Thu, 24 Mar 2011 11:50:50 +0100
+
+office-tools (0.2-27) unstable; urgency=low
+
+  * Fixed: NB#231441 - Viewers view menu layout is not as per Layout Guide.
+  * Fixed: NB#234758 - Blue colored line in the Main View Menu is not displaying
+
+ -- Mani Chandrasekar <manikandaprasad.chandrasekar@nokia.com>  Mon, 23 Mar 2011 19:51:48 +0530
+
+office-tools (0.2-26) unstable; urgency=low
+
+  * Fixed: NB#237563 - Crash occurred after tapping on 'NO' in delete dialogue
+  * Fixed: NB#237411 - Marking a file as favourite is not working as expected
+  * Fixed: NB#238626 - Office tools; The favourite icon is still shows when the file is unmarked as favorite
+  * Fixed: NB#237438 - 'Remove from favorites' option is not shown from viewer view
+  * Fixed: NB#236620 - Both add and remove options are shown for favorites in object menu
+  * Fixed: NB#219561 - Unable to see the favourite icon after marking a file as favourite from viewers main menu
+  * Fixed: NB#238035 - Unable to select more than one file in delete subview after tapping NO in delete dialogue
+  * Fixed: NB#228855 - The previously viewed page should not be highlighted in thumbnails grid
+  * Fixed: NB#235506 - View does not go to 'fit to page' on double tapping on a thumbnail
+  * Fixed: NB#231456 - Transition for moving between slides in presentation should be improved
+  * Fixed: NB#228201 - Unnecessary common style import in office-tools.css
+  * Fixed: NB#235052 - Font in buttons in viewer view is not displayed
+  * Fixed: NB#238268 - PdfPage::zoom() is extremely slow 
+  * Fixed: NB#237591 - PDF opening cannot be aborted
+  * Fixed: NB#238277 - PdfLoader::load() is slow for big PDF files
+  * Fixed: NB#238284 - PdfPage::loadDocument() is slow
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Wed, 23 Mar 2011 11:58:25 +0100
+
+office-tools (0.2-25) unstable; urgency=low
+
+  * Fixed: NB#199455 - libpoppler vulnerabilities
+  * Fixed: NB#215734 - List items in front page are not as per layout guide
+  * Fixed: NB#209225 - Application does not go to mass storage mode on connecting USB
+  * Fixed: NB#232801 - office-tools.launch process using CPU when Documents application launched and when device is in idle 
+  * Fixed: NB#232398 - Image blurs on Zoom In for PDF 
+  * Fixed: NB#232431 - Documents: pinch zooming in and out files is not smooth and needs some tuning
+  * Fixed: NB#219279 - Zoom does not respond after zooming in to a certain level
+  * Fixed: NB#237102 - Office Tools crash when changing orientation while Excel document is loaded
+  * Fixed: NB#234078 - Zoom level option is shown for spreadsheets. 
+  * Fixed: NB#221480 - After copying documents to the device the main is not updated
+  * Fixed: NB#205330 - Front page view blurred while copying files
+  * Fixed: NB#235039 - Crash observed on 'sorting by time' 
+  * Fixed: NB#225743 - In Front Page few file names are dispalying in white color
+  * Fixed: NB#207277 - Documents are still visible in front page even after deletion.
+  * Fixed: NB#216808 - Intermediate zoom level is shown when zooming in from thumbnail view to 'fit to page' 
+  * Fixed: NB#235396 - Different URLs within the same document are opening wrongly.
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Sun, 20 Mar 2011 06:38:52 +0100
+
+office-tools (0.2-24) unstable; urgency=low
+
+  * Fixed: NB#225081 - Go-to-main-view" button should open Main view
+  * Fixed: NB#205586 - Office tools, Sort by name, sorting; documents with special characters in name are not sorted properly
+  * Fixed few more unit test errors
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Wed, 16 Mar 2011 13:43:29 +0100
+
+office-tools (0.2-23) unstable; urgency=low
+
+  * Added the required post install file
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Wed, 16 Mar 2011 05:08:54 +0100
+
+office-tools (0.2-22) unstable; urgency=low
+
+  * Fixed: NB#225147 - unable to open the page on which we tap in all page view in portrait mode for PDF.
+  * Fixed: NB#229584 - The layout of Thumbnails grid is not correct
+  * Fixed: Link handling of PDF, Spreadsheet and Word documents
+  * Fixed: NB#233107 - The full screen mode should not activate automatically while panning/zooming in Viewer UI 
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Wed, 16 Mar 2011 08:26:33 +0100
+
+office-tools (0.2-21) unstable; urgency=low
+
+  * Fixed: NB#236632 - CITA test cases are failing for office-tools
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Tue, 15 Mar 2011 05:08:54 +0100
+
+office-tools (0.2-20) unstable; urgency=low
+
+  * Fixed: NB#223318 - Documents; Unable left right scrolling of a pdf file after zoom in.
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Sat, 12 Mar 2011 05:08:54 +0100
+
+office-tools (0.2-19) unstable; urgency=low
+
+  * Fixed: NB#232415 - Application does not respond on zooming in and out of PDF
+  * Fixed: NB#234685 - Crash observed on short tapping in a certain scenario
+  * Fixed: NB#221985 - Viewer view toolbar should be black 
+  * Fixed: NB#232801 - office-tools.launch process using CPU when Documents application launched and when device is in idle 
+  * Fixed: NB#233982 - View goes to front page on tapping 'no' in delete documents view
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Fri, 11 Mar 2011 08:14:45 +0100
+
+office-tools (0.2-18) unstable; urgency=low
+
+  * Fixed: NB#230070 - Implementation: front page & document viewer should be separate binaries
+  * Fixed: NB#229624 - Document Application launch time is high
+  * Fixed: NB#212872 - The find text area changes shape on searching 
+  * Fixed: NB#223643 - Not able to see the Default text in Jump to Page text field
+  * Fixed: NB#233109 - Controls mode does not disappear automatically after 5 seconds when in thumbnails view
+  * Fixed: NB#233111 - "Jump to page/sheet" should be offered also when zoomed out to thumbnails grid
+  * Fixed: NB#205074 - Find in document mode exits on zooming /panning
+  * Fixed: NB#229468 - Office- "No documents" §qtn_offi_no_documents§ is clipped
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Wed, 09 Mar 2011 16:30:28 +0530
+
+office-tools (0.2-17) unstable; urgency=low
+
+  * Fixed: NB#226181 - If clicking a file from front page multiple times, multiple instances of a file are opened
+  * Fixed: NB#218246 - Background color and document shadow missing from Viewer 
+  * Fixed: NB#215734 - List items in front page are not as per layout guide 
+  * Fixed: NB#214409 - Heavy tracker usage when opening a PDF file
+  * FIxed: NB#231279 - [FEA] Office-tools migration to QtSparql
+
+ -- Mani Chandrasekar <manikandaprasad.chandrasekar@nokia.com>  Mon, 07 Mar 2011 19:35:48 +0530
+
+office-tools (0.2-16) unstable; urgency=low
+
+  * Fixed: NB#204711 - Office Tools; functional; Indicator overlaps the menu field during the scrolling in spreadsheets
+  * Fixed: NB#230184 - Able to see toolbar only at the top of the screen when tapped on Close button in Find toolbar
+  * Fixed: NB#230602 - Office Tools; change view to 2 pages causes application crash.
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Thu, 03 Mar 2011 16:30:28 +0530
+
+office-tools (0.2-15) unstable; urgency=low
+
+  * Fixed: NB#224568 - Jump to page icon is enabled when current document has just 1 page
+  * Fixed: NB#216834 - Last opened option is not hidden when file is never opened
+  * Fixed: NB#224527 - Not able to see the content in the spread sheet in All Page View.
+  * Fixed: NB#227493 - Progress bar does not look correct
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Wed, 02 Mar 2011 12:45:00 +0530
+
+office-tools (0.2-14) unstable; urgency=low
+
+  * Fixed: NB#216426 - Internal hyperlinks are not working in spreadsheets.
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Wed, 02 Mar 2011 06:57:13 +0100
+
+office-tools (0.2-13) unstable; urgency=low
+
+  * Fixed: NB#220209 - Unable to see highlighted items beyond 1st page for MSword documents while searching.
+  * Fixed: NB#204702 - OFFICE SEARCH> The first result does not appear to the upper part of the screen and is covered if VKB is open. 
+  * Fixed: NB#231432 - Able to see Zoom Level Option in the all pages View menu for Speadsheets. 
+  * Fixed: NB#225765 - Progress bar is loading in backward direction for a fraction of seconds
+  * Fixed: NB#225986 - Default Value for Zoom level in view menu is incorrect for presentations.
+  * Fixed: NB#186503 - Bounce back for maximum and minimum zoom
+  * Fixed: NB#225074 - When zooming in to maximum level, bounce back is missing
+  * Fixed: NB#216814 - View returns to thumbnail grid on zooming in
+  * Fixed: NB#221982 - Thumbnails view should be available only in 2-columns
+  * Fixed: NB#228855 - The previously viewed page should not be highlighted in thumbnails grid
+  * Fixed: NB#230722 - Jump to page does not work with boundry value 
+  * Fixed: NB#225062 - In the attached document,sheet number is not displaying in the correct position 
+  * Fixed: NB#231605 - Page numbers should be shown by using white font color
+  * Fixed: NB#218151 - Sheet name and page number are not clearly visible
+  * Fixed: NB#224761 - Page number is not displayed when Zoom level is Fit to page for Word documents.
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Tue, 01 Mar 2011 13:25:06 +0100
+
+office-tools (0.2-12) unstable; urgency=low
+
+  * Build against latest changes in koffice
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Mon, 28 Feb 2011 11:10:53 +0100
+
+office-tools (0.2-11) unstable; urgency=low
+
+  * Fixed: NB#228909 - Empty Documents view should not scroll
+  * Fixed: NB#229533 - Office - Unlocalized banner shown when using Jump to page
+  * Fixed: NB#210019 - Sort by Type,order is random and not as per the UI Spec
+  * Fixed: NB#224127 - Sory by/Delete/Share present when the filtered list in front page is empty
+  * Fixed: NB#230016 - Copy/Paste button should not be shown in "Jump to page" or "Find in document"
+  * Fixed: NB#185247 - please document the com.nokia.maemo.meegotouch.OfficeToolsInterface
+  * Fixed: NB#192881 - <coverity> defects from Office Tools
+  * Fixed: NB#217248 - LANKKU: Double progress spinners are shown on document title.
+  * Fixed: NB#215734 - List items in front page are not as per layout guide
+
+ -- Mani Chandrasekar <manikandaprasad.chandrasekar@nokia.com>  Tue, 25 Feb 2011 12:22:46 +0530
+
+office-tools (0.2-10) unstable; urgency=low
+
+  * Fixed: NB#228830 - Application office-tools should not be visible in Package Manager UI Applications page
+  * Fixed: scrolling after orientation change.
+  * Use a correct way to get the size of the viewer area
+  * Fixed: NB#217730 - Embedded emf format picture is not displayed in spreadsheets.
+  * Fixed: NB#217062 - Embedded .html file is not displaying in the spreadsheets.
+  * Fixed: NB#202527 - Embedded word document is not displayed in spreadsheets
+  * Fixed: NB#217732 - Embedded Textbox is not displayed in spreadsheets
+  * Fixed: NB#217508 - Embedded notepad ikon is not displaying in correct position in the word documents
+  * Fixed: NB#216539 - Embeded audio files are not displaying in spreadsheets
+  * Fixed: NB#216866 - Embeded pdf is not displaying in the spreadsheet.
+  * Fixed: NB#216872 - Embeded ppt is not displaying in the spreadsheet.
+  * Fixed: NB#216658 - Colors of the venn diagram are not displaying in spreadsheets
+  * Fixed: NB#228653 - Page number is not changing on scrolling for word documents.
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Tue, 22 Feb 2011 12:31:48 +0100
+
+office-tools (0.2-9) unstable; urgency=low
+
+  * Fixed vertical scrolling when there is a document offset
+  * Fixes: NB#219514 - Able to see file extension in the frontpage view after marking file as favourite
+  * Fixes: NB#224196 - Text 'No documents is getting disappeared after tapping on the share/Delete option in Search screen
+  * Fixes: NB#204656 - Office tools; Zooming is not performed were you want it, zoom jumps to start of page
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Tue, 15 Feb 2011 07:33:25 +0100
+
+office-tools (0.2-8) unstable; urgency=low
+
+  * Fixes: NB#224571 - Order of the buttons in the viewer toolbar is not as per the layout guide
+  * Fixes: NB#210131 - Word documents can be scrolled beyond end of page
+  * Fixes: NB#213769 - Slides remain out of viewer area on panning
+  * Fixes: NB#222337 - Documents; Wrong size information (1kB) with large text file
+  * Fixes: NB#222639 - Alignment of the slide is wrong for PPT documents in portrait mode.
+  * Fixes: NB#224842 - On changing from portrait to landscape,Toolbar is not displayed properly in presentations
+  * Fixes: NB#210131 - Word documents can be scrolled beyond end of page
+  * Fixes: NB#213769 - Slides remain out of viewer area on panning
+  * Fixes: NB#208302 - Presentations are not centered in certain zoom levels
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Thu, 10 Feb 2011 16:10:00 +0530
+
+office-tools (0.2-7) unstable; urgency=low
+
+  * Fixes: NB#215521 - Office Tools; Content of §qtn_offi_details_vm_description§ and §qtn_offi_details_vm_author§ labels clipped when lengthy 
+  * Fixes: NB#225699 - Delete document confirmation dialog is broken
+  * Fixes: NB#225689 - No documents view is incorrect
+  * Fixes: NB#225442 - The background for few odp files is not consistent.
+  * Fixes: NB#225078 - Author metadata field should be hidden if empty
+  * Fixes: NB#214400 - More space between Author heading and Author name in View details page.
+  * Fixes: NB#225082 - Details view layout is not correct
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Tue, 08 Feb 2011 18:00:00 +0530
+
+office-tools (0.2-6) unstable; urgency=low
+  
+  * Fixed crash happening when loading error was shown
+  * Fixes: NB#218382 - Share UI is not showing selected files when sortby option is 'Type' or 'Name'
+  * Fixes: NB#218009 - office-tools: debug package missing symbols due to -g0
+  * Fixes: NB#221768 - Look and feel of 'Delete' and 'Cancel' buttons are different than others
+  * Fixed the issues in closing Viewer view on deleting an open file from main view
+
+ -- Murugappan Nataraj <murugappan.nataraj@nokia.com>  Wed, 02 Feb 2011 11:00:00 +0530
+
+office-tools (0.2-5) unstable; urgency=low
+  
+  * Fixes: NB#209121 - 'Share' should be displayed as 'Share Documents'
+  * Fixes: NB#207683 - qtn_comm_banner_select_first banner is not shown on
+    tappin share/delete icon without selecting a file
+  * Fixed some warnings and also some unit test fails
+  * Fixes: NB#215891 - View does not go to 'fit to page' on double tapping on a thumbnail
+  * Fixes: NB#214978 - View does not go to all page view on pinching in at 'fit to page'
+  * Fixes: NB#218966 - Wrong "Find" icon shown in Viewer toolbar
+  * Fixes: NB#221195 - Find and jump to page toolbars are displaying in the middle of the page when the hardware keyboard is opened
+  * Fixes: NB#212501 - Toolbar shows up while searching within document
+  * Fixes: NB#219270 - File name toolbar is truncated on changing orientation
+  * Fixes: NB#202842 - Toolbar does not disappear after 5 seconds in viewer view
+  * Fixes: NB#216849 - Only half of 'Jump to page' toolbar is shown in Portrait mode.
+  * Fixes: NB#218145 - 'jump to page' toolbar is hidden
+  * Fixes: NB#218958 - Single tap is not behaving correctly in thumbnail view for spreadsheets
+  * Fixes: NB#210213 - Info banner is not shown when non existent page number is given
+  * Fixes: NB#216648 - <coverity> defects from office-tools/0.1-95-1.488167_0m6
+  * Fixes: NB#215885 - §qtn_offi_vm_2_columns§ does not show in zoom levels
+  * Fixes: NB#219522 - Able to see file extension along with filename in Viewers controls mode.
+  * Fixes: NB#221982 - Thumbnails view should be avaiable only in 2-columns
+
+ -- Mani Chandrasekar <manikandaprasad.chandrasekar@nokia.com>  Tue, 27 Jan 2011 19:00:46 +0530
+
+office-tools (0.2-4) unstable; urgency=low
+  
+  * Fixed the problems with office-tools showing blank screen when launching from CM and multiple instaces of front page
+
+ -- Murugappan Nataraj <murugappan.nataraj@nokia.com>  Fri, 21 Jan 2011 18:00:00 +0530
+
+office-tools (0.2-3) unstable; urgency=low
+  
+  * Fixed the zooming issues in Word, Presentation and Spreadsheet.
+  * Now showing the page ASAP when opening viewer view.
+  * Changed the spinner to progress bar while opening office files 
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  The, 20 Jan 2011 18:00:46 +0530
+
+office-tools (0.2-2) unstable; urgency=low
+  
+  * Fixes: NB#199402 - frontpage view is launched when office documents are launched from CM and email
+  * Fixes: NB#214409 - Heavy tracker usage when opening a PDF file
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Tue, 18 Jan 2011 19:00:46 +0530
+
+office-tools (0.2-1) unstable; urgency=low
+
+  * Fixes: NB#213761 - Spinner is displayed for all files in front page
+  * Fixed some logical IDs in jumpto and find toolbar
+  * Fixes: NB#216547 - Incorrect localization in 'Go to page' toolbar
+  * Fixes: NB#216552 - Incorrect localization in 'Search' toolbar
+  * Implementation for "Document should not be able to pan when the size is less than viewport"
+  * Fixes: NB#194449 - PPSX file does not open.
+  * Fixes: NB#213614 - Toolbar does not appear on tapping viewer area
+  * Fixes: NB#209153 - Hang observed for a while when zoom level is changed in attached document
+  * Changed the main view icon id in the Document View toolbar
+
+ -- Murugappan Nataraj <murugappan.nataraj@nokia.com>  Wed, 12 Jan 2011 14:36:00 +0530
+
+office-tools (0.2-0) unstable; urgency=low
+
+  * Fixes: NB#213955 - File name is not getting displayed for excel documents in controls mode
+  * Fixes: NB#213616 - Office- .pps files are being tagged as .ppt
+  * Fixes: NB#215022 - Application crashes while tapping on the content area at the time of loading
+  * Fixes: NB#213974 - Office - Banner for password protected documents not showing
+  * Fixes: NB#213972 - Office - Corrupt file banner is not showing
+  * Fixes: NB#215249 - COREWEB: /usr/bin/office-tools 'isNull QPixmap::isNull QPixmap::copy QPixmap::QPixmap MImageWidget::setPixmap'
+  * Fixes: NB#215333 - office-tools: package built without compiler optimizations
+  * Fixes: NB#214959 - Documents application cannot be launched again in the following scenario
+  * Fixes: NB#188356 - Delete/Share/Favourite/View details options are accessible for email attachment
+  * Fixes: NB#207694 - Favorite / delete options available for files that are not saved to tracker
+  * Fixes: NB#214961 - Cannot mark a file as favorite from office tool main view
+  * Fixes: NB#215483 - Office tool; qtn_comm_command_unmark_favorite not shown when a file is already marked as favorite
+  * Fixes: NB#215506 - Office Tools: Application can not be open after marking an item as favorite
+  * Fixes: NB#215980 - Empty page with back button is shown in view details page while the file name consists of Chinese characters.
+  * Fixes: NB#204947 - Office Tools; Details, Details doesn't show special characters in files doc,xls and ppt
+  * Fixes: NB#215668 - Office Tools; Wrong Punctuation; period (.) instead of comma (,) as file size decimal separator
+  * Fixes: NB#215434 - Office tools; dot (".") displayed in the file details (size of the file)
+  * Fixes: NB#215006 - Tapping + in jump to page VKB launches find dialog
+
+ -- Mani <manikandaprasad.chandrasekar@nokia.com>  Mon, 27 Dec 2010 15:09:46 +0530
+
+office-tools (0.1-95) unstable; urgency=low
+
+  * Build aginst koffice 2.3.6-8
+
+ -- Thorsten Zachmann <thorsten.zachmann@nokia.com>  Mon, 20 Dec 2010 10:56:02 +0100
+
+office-tools (0.1-94) unstable; urgency=low
+
+  * Fixes: NB#212898 - Cannot navigate between different sheets in spreadsheets
+
+ -- Mani <manikandaprasad.chandrasekar@nokia.com>  Fri, 16 Dec 2010 19:29:46 +0530
+
+office-tools (0.1-93) unstable; urgency=low
+
+  * Adding animation to Thumbnail view
+  * Implementation of find toolbar
+  * Fixes: NB#201838 - Large files reopen on closing while loading
+  * Fixes: NB#210213 - Info banner is not shown when non existent page number is given
+  * Updated the Delete option layout
+  * Fixed the crash in pdf search caused by initalizing the search before loading the document
+  * Fixes: NB#210503 - Office tools is using the wrong icon-id
+  * Fixes: NB#204668 - Office Tools: Clipped label §qtn_offi_details_last_accessed§ on portrait view mode
+  * Fixes: NB#207679 - Save as option is available on files that are already saved to tracker database
+  * Fixes: NB#211997 - office-tools.desktop should call invoker directly 
+  * Fixes: NB#211178 - Office - Logical ID §qtn_offi_error_zero_matches§ shown in application
+  * Implementation for image based zooming
+  * Updated the Share option layout
+  * Updated the JumpTo toolbar layout
+  * Layout and UI changes for Findtoolbar and JumpToolbar
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Thu, 16 Dec 2010 18:46:56 +0530
+
+office-tools (0.1-92) unstable; urgency=low
+  
+  * Showing the progress bar in front page while opening the document.
+  * Prevent Display blank when TV-Out is connected
+  * Fixes: NB#192924 - Spinner should show in the middle of the screen when loading a document
+  * Fixes: NB#204666 - Office tools, View details; date is not localized
+  * Spreadsheet sheet names are not shown on top of thumbnails and in top toolbar
+  * Updated the behaviour of Find-in-Document when no matches are found
+  * Fixes: NB#208256 - Space in filenames is replaced with '%'
+  * Fixes: NB#209410 - After opening the file,Viewer tool bar is displaying immediately
+  * Fixes: NB#204423 - Jump to the desired page in the pdf viewer
+
+ -- Mani <manikandaprasad.chandrasekar@nokia.com>  Fri, 05 Dec 2010 20:30:46 +0530
+
+office-tools (0.1-91) unstable; urgency=low
+  
+  * Using the latest fastscroll from the framework.
+  * Fixes: NB#208261 - Spreadsheets crash on performing any action
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Mon, 29 Nov 2010 19:00:46 +0530
+
+office-tools (0.1-90) unstable; urgency=low
+  
+  * Fixes: NB#206408 - 'Delete All Documents?' confirmation dialog is shown on deleting a single file
+  * Fixes: NB#206415 - Wrong numbering for delete confirmation dialog when deleting multiple files
+  * Fixes: NB#202628 - Cannot 'Mark all' from Share/delete view
+  * Fixes: NB#205386 - Office Tools - .vcf .ics and .csv are listed in the Office Tools main view
+  * Fixes: NB#204946 - Office Tools; Extra informations for Excel files are missing
+  * Fixes: NB#204664 - Crash is observed on PDF document while rotating the device
+  * When opening the front page updated the settings file to mention the current file it is holding is closed
+  * Fixes: NB#197035 - Launching Office application from CM opens another copy of already open file
+  * Fixes: NB#205586 - Office tools, Sort by name, sorting; documents with special characters in name are not sorted properly
+  * Fixes: NB#204243 - View does not go back to main view on tapping 'no' in delete documents view
+  * Fixes: NB#207487 - office-tools.launch using deprecated component MInfoBanner
+  * Fixes: NB#197066 - External Hyperlink does not work from any file type
+  * Fixes: NB#202970 - Slide number is not shown in presentation slides
+
+ -- Mani <manikandaprasad.chandrasekar@nokia.com>  Thu, 26 Nov 2010 18:15:46 +0530
+
+office-tools (0.1-89) unstable; urgency=low
+
+  * Fixes: NB#204683 - Office search results are not highlighted but covered by a colored patch
+
+ -- Murugappan Nataraj <murugappan.nataraj@nokia.com>  Tue, 23 Nov 2010 13:00:00 +0530
+
+office-tools (0.1-88) unstable; urgency=low
+
+  * Fixes: NB#204654 - Office Tool; Icon-m-toolbar-share is missing
+  * Fixes: NB#201005 - Cannot Delete file from Delete Document view
+  * Fixes: NB#204341 - Office Tools crashes on deleting all files
+  * Fixes: NB#204677 - Office search typing on HWK does not trigger find mode
+  * Modified the conditional check of the modifiers required for NB#204677
+
+ -- Mani <manikandaprasad.chandrasekar@nokia.com>  Fri, 19 Nov 2010 18:00:00 +0530
+
+office-tools (0.1-87) unstable; urgency=low
+
+  * Fixes: NB#203795 - Office- Hardcoded values are shown in application
+  * Fixes: NB#204658 - Office Tools: Wrong order for when sort by time (qtn_comm_sort_by_time)
+  * Fixes: NB#199603 - New instance of office is opened when unsupported files are opened
+  * Fixes: NB#205386 - Office Tools - .vcf .ics and .csv are listed in the Office Tools main view
+  * Fixes: NB#201622 - COREWEB: /usr/bin/office-tools '__pthread_cond_timedwait wait..
+  * Fixes: NB#204444 - Office - Logical ID qtn_off_boudry_max_zoom  shown in application
+  * Fixes: NB#201462 - Office- Logical ID qtn_offi_share_documents is shown in application
+  * Removed the 'Zoom levels" options for spreadsheet
+
+ -- Mani <manikandaprasad.chandrasekar@nokia.com>  Mon, 18 Nov 2010 20:00:00 +0530
+
+office-tools (0.1-86) unstable; urgency=low
+
+  * Implemented the 'Shortcut to Front Page from Viewer view'
+
+ -- Murugappan Nataraj <murugappan.nataraj@nokia.com>  Thu, 18 Nov 2010 13:00:00 +0530
+
+office-tools (0.1-85) unstable; urgency=low
+
+  * Fixes: NB#203961 - office-tools call MTheme::loadCSS()
+  * Fixes: NB#204136 - Horizontal swipe moves to next slide in presentations in portrait mode
+  * Fixes: NB#204395 - Documents other than PDF do not get rendere
+  * Fixes: NB#197444 - Internal Hyperlink does not work for docx format
+  * Fixes: NB#204674 - Office Tools; Viewer, for doc, ppt, and pdf files is the same as others
+  * Implemented the No multiple instances of same document
+  * Fixed the unit tests compilation error
+
+ -- Mani <manikandaprasad.chandrasekar@nokia.com>  Mon, 15 Nov 2010 20:00:00 +0530
+
+office-tools (0.1-84) unstable; urgency=low
+  
+  * Fixes: NB#201005 - Cannot Delete file from Delete Document view
+  * Fixes: NB#202634 - Logical ID qtn_comm_sort_by_type is shown for sort by type
+  * Fixed group sorting problem
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Thu, 04 Nov 2010 19:00:46 +0530
+
+office-tools (0.1-83) unstable; urgency=low
+  
+  * Implemented grouping with a know issue of sorting
+  * Added fast scrolling
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Wed, 03 Nov 2010 15:30:46 +0530
+
+office-tools (0.1-82) unstable; urgency=low
+
+  * Fixed the issue in panning/zooming performance
+  * Fixes: NB#186507 -  Fit to page does not show powerpoint fully
+  * Fixes: NB#186507 - Only tap should show top bar with home and close buttons and view menu
+  * Fixes: NB#192898 - Extra text is shown for presentations
+  * Fixes: NB#187206 - Text overlaps in embedded presentation file
+  * Fixed the issue in panning/zooming performance 
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Wed, 27 Oct 2010 20:30:00 +0530
+
+office-tools (0.1-81) unstable; urgency=low
+
+  * Fixed the issue in scrolling presentations with right direction
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Mon, 25 Oct 2010 16:39:00 +0530
+
+office-tools (0.1-80) unstable; urgency=low
+  
+  * Fixes: NB#199499 - COREWEB: /usr/bin/office-tools '__poll g_main_context_poll g_main_context_iterate 
+  * Fixes: NB#199013 - Office Tools crashes on saving a file using 'Save As' 
+  * Fixes: NB#187837 - Presentation cant be scrolled
+
+ -- Mani <manikandaprasad.chandrasekar@nokia.com>  Fri, 22 Oct 2010 12:06:00 +0530
+
+office-tools (0.1-79) unstable; urgency=low
+  
+  * Fixes a crash while panning.
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Wed, 20 Oct 2010 12:29:46 +0530
+
+office-tools (0.1-78) unstable; urgency=low
+  
+  * Changed model to caching model.
+  * Fixes: NB#189873 - Selecting Sort by -> Time is not smooth
+  * Fixes: NB#192503 - Favorite option is not updated in viewer view menu
+  * Fixes: NB#196499 - Office tools crashes on marking as fav from viewer view
+  * Fixes: NB#193874 - Front page does not update when a file is saved using "Save as"
+  * Fixes: NB#185199 - Front page List does not update after a file is deleted
+  * Fixes: NB#195313 - <MemLeak>Office-tools X resource count is high when a file of types .doc, .ods, .odt, .xls, .pdf etc open and closed
+  * Fixes: NB#180577 - Page number in the files (e.g. PDF) shows "??/??" marks
+  * Fixes: NB#194107 - Freeze observed when attached pdf document is panned continuously
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Mon, 18 Oct 2010 12:29:46 +0530
+
+office-tools (0.1-77) unstable; urgency=low
+
+  * Fixes: NB#195093 - <coverity> CTOR_DTOR_LEAKs in poppler
+  * Fixes: NB#197690 - Wrong logical name §qtn_offi_featuretitle§ use for Office tool icon §qtn_comm_appname_offi§
+
+ -- Mani <manikandaprasad.chandrasekar@nokia.com>  Wed, 13 Oct 2010 17:13:00 +0530
+
+office-tools (0.1-76) unstable; urgency=low
+  
+  * Using booster to speedup application startup
+  * Fixes: NB#196749 - Office-tools crashes in OfficeViewerWord::~OfficeViewerWord
+  * Fixes: NB#196961 - Office-tools crashes in OfficeViewerPresentation::~OfficeViewerPresentation
+  * Fixes: NB#174214 - Spreadsheet behaves oddly during search
+  * Fixes: NB#194449 - PPSX file does not open
+  * Fixes: NB#170478 - Launching xls documents takes very long time
+  * Fixes: NB#195007 - Variant specific characters are not displayed in German
+  * Fixes: NB#192172 - Icon is not displayed,when view details is opened for the 1st time from viewer view
+  * Fixes: NB#192067 - The search filed is shown unexpectedly on Document app while no documents file existed on device
+  * 196386 - All document names are displayed as dots in Office Tools main view
+
+ -- Murugappan Nataraj <murugappan.nataraj@nokia.com>  Mon, 04 Oct 2010 19:00:00 +0530
+
+office-tools (0.1-75) unstable; urgency=low
+  
+  * Removed usage of TapEventHandler in most of the places in Documentpage and
+    instead used gestures.
+  * Fixes: NB#195043 - Tracker does not recognize the documents
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Thu, 30 Sep 2010 13:15:46 +0530
+
+office-tools (0.1-74) unstable; urgency=low
+  
+  * Fixes: NB#192909 -  office tool application is not popup on the screen
+    when it is minimized in the desktop and try to launch from search application
+  * Changed filtering part to make use of new improvements in filters
+  * Fixes: NB#194764 - On changing zoom level, the document goes back to 1st page
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Tue, 28 Sep 2010 17:24:46 +0530
+
+office-tools (0.1-73) unstable; urgency=low
+  
+  * Fixes: NB#187387 - Fit to zoom is not proper for spreadsheets
+  * Fixes: NB#193841 - Find icon is not responsive for doc n xls format
+  * Fixes: NB#191582 - Office tools crashes on Tapping on Front page object menu items
+  * Fixes: NB#191845 - Nothing happens on tapping share/delete from front page object menu
+  * Modified the Fit to zoom options of Spreadsheets for No Indicators case
+  * Fixes: NB#181431 - xlsm file does not open with Office tools
+  * Fixes: NB#187984 - All pages view for PDF does not load properly
+  * Fixes: NB#190958 - Focus shifts to any random document in front page on closing document
+  * Fixes: NB#185781 - 'Sort by Time' Sorts files in reverse alphabetical order
+  * Fixed the issue with zoom on orientation change
+
+ -- Murugappan Nataraj <murugappan.nataraj@nokia.com>  Fri, 24 Sep 2010 12:00:00 +0530
+
+office-tools (0.1-72) unstable; urgency=low
+  
+  * Fixed issues with pinch to zoom functionality
+  * Fixes: NB#174835 - Pinch to zoom is not smooth.
+  * Fixes: NB#190221 - All page view is shown on zooming in presentation
+  * Fixes: NB#186506 - Zooming is not smooth
+  * Fixes: NB#193153 - Crash observed while launching attached xls document
+  * Fixes: NB#193621 - Office Tools app 1 Gb text file is shown as 1 MB
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Wed, 22 Sep 2010 17:24:46 +0530
+
+office-tools (0.1-71) unstable; urgency=low
+ 
+  * Included tracker security details for Read and write access
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Tue, 21 Sep 2010 16:39:00 +0530
+
+
+office-tools (0.1-70) unstable; urgency=low
+  
+  * Fixes: NB#172613 - Page no indicator is not displayed when the attached file is zoomed in to minimum
+  * Implemented SaveAs functionality
+  * Fixes: NB#172638 - METABUG : User should be able to save a file using "save as" option
+  * Fixes: NB#191073 - Dark screen is shown for certain spreadsheets
+  * Fixes: NB#189433 - Fit to page for a presentation is not center aligned
+  * Fixes: NB#192675 -  Office tools application does not launch
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Fri, 17 Sep 2010 15:06:46 +0530
+
+office-tools (0.1-69) unstable; urgency=low
+
+  * Fixes: NB#190258 -Office tools crashed when opening a excel with embedded flash
+  * Fixes: NB#191068 - office-tools crashes in QMapData::createData when Large pdf is opened from CM 
+  * Fixes: NB#178955 - On searching,the 1st instance of the string is not highlighted in document files
+  * Fixed a crash which is because of framework bug#191682.
+  * Fixes: NB#191237 - Text entry is not enabled for find text area in viewer view
+  * Fixes: NB#191427 -  Source package 'poppler' interfaces not frozen in 0.2010.36-5
+  * Fixes: NB#191400 -  Source package 'libgsf' interfaces not frozen in 0.2010.36-5
+
+ -- Mani <manikandaprasad.chandrasekar@nokia.com>  Wed, 15 Sep 2010 17:13:00 +0530
+
+office-tools (0.1-68) unstable; urgency=low
+
+  * Fixed the failing unit test cases ut_spreadsheet, ut_applicationwindow
+
+ -- Murugappan Nataraj <murugappan.nataraj@nokia.com>  Thu, 09 Sep 2010 19:30:00 +0530
+
+office-tools (0.1-67) unstable; urgency=low
+
+  * Fixes: NB#179267 - New instance of office is opened when unsupported files are opened
+  * Fixes: NB#187858 - Wrong label shown when there are no documents listed in the front page 
+  * Fixes: NB#186132 - End of Spreadsheet not according to Spec
+  * Fixes: NB#184450 - Ctrl + f have no functionality to open find field and swipe left and right cant turn the page
+  * Fixes: NB#186277 - Crash observed after closing Pdf document
+  * Fixes: NB#185436 - A grey screen is displayed just before a pdf is opened
+  * Fixes: NB#186367 - office tools crashes at Gfx::opShowSpaceText (this=0x45115070, args=0x4550a270) at Gfx.cc:3524
+  * Fixes: NB#187821 - office-tools crashes at SplashClip::testRect
+  * Fixes: NB#187156 - PDF files float on zooming in/out
+  * Fixes: NB#187748 - Text gets highlighted on tapping on internal hyperlink in a PDF
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Thu, 09 Sep 2010 12:39:00 +0530
+
+office-tools (0.1-66) unstable; urgency=low
+
+  * Changed the way the actions are added Appmenu and toolbar. Now each page
+    is responsible for adding its own actions.
+  * Fixes: NB#182887 - File cant be unmarked as Favourite from All pages view menu
+  * Fixes: NB#187436 - Front page cannot be accessed after performing share/delete operations on empty filter views
+  * Implemented slide transition gesture
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Fri, 03 Sep 2010 18:00:46 +0530
+
+office-tools (0.1-65) unstable; urgency=low
+
+  * Fixes: NB#186108 - The message 'no documents' does not show in a certain scenario
+  * Fixes: NB#189138 -  Mark All option shows in front page sub view menu
+  * Added border for All pages layout
+  * Fixes: NB#178469 - Previous view indicator is not shown in All page view
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Wed, 01 Sep 2010 14:31:00 +0530
+
+office-tools (0.1-64) unstable; urgency=low
+
+  * Fixes: NB#188516 - On Saying 'No' to delete confirmation dialog,the view goes to front page
+  * Fixed issue with officeviewerword tap for url launch
+  * Fixes: NB#187563 - find dialog does not close on tapping the viewer view or on panning the document
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Tue, 31 Aug 2010 18:00:46 +0530
+
+office-tools (0.1-63) unstable; urgency=low
+
+  * Fixes: NB#182723 - Tapping on a thumbnail in all pages view goes to first page of file
+  * Fixed some mark/unmark all related issues and also showing of unsupported files
+    in front page.
+  * Fixes: NB#188689 - Mark All functionality not working
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Mon, 30 Aug 2010 13:40:46 +0530
+
+office-tools (0.1-62) unstable; urgency=low
+
+  * Fixes: NB#186137 - Front page layout is not as per layout guide
+  * All pages view layout allignment
+  * Fixes: NB#186478 - Filtered view application grid area is empty
+  * Fixes: NB#185781 - 'Sort by Time' Sorts in reverse alphabetical order
+  * Fixes: NB#178227 - The Favorite icon does not update
+  * Fixes: NB#184610 - Cannot return to front page after deleting files from filter submenu
+  * Fixes: NB#187963 -  Details dialog does not launch from front page object menu
+  * Fixes: NB#179215 - Metabug : File can be searched using the HW Kbd in the front page view  
+  * Fixes: NB#185596 - Both Mark all/UnMark all are present in the Delete/Share Sub view
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Fri, 27 Aug 2010 16:01:00 +0530
+
+office-tools (0.1-61) unstable; urgency=low
+
+  * Fixes: NB#158659 - Launching of browser from office tools is tricky
+  * Updated DocumentDetailView as per updated UI spec
+  * Fixes: NB#185616 - On reopening find, the previous keyword is not displayed
+  * Fixes: NB#175408 - Cannot search in Spreadsheets with multiple sheets
+  * Fixes: NB#184065 - Text is rendered only for the first page in text documents
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Wed, 18 Aug 2010 17:35:00 +0530
+
+office-tools (0.1-60) unstable; urgency=low
+
+  * First set of changes to allign all-pages view with layout guide
+  * Fixes: NB#181490 - Default action for HTML file should be browser
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Tue, 17 Aug 2010 14:30:46 +0530
+
+office-tools (0.1-59) unstable; urgency=low
+
+  * Fixes: NB#183411 - Value in Zoom level does not change when tapped on document
+  * Fixes: NB#181089 - Favorite icon marked to documents is not saved in tracker
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Mon, 16 Aug 2010 17:00:00 +0530
+
+office-tools (0.1-58) unstable; urgency=low
+
+  * Fixes: NB#183647 - Selection does not highlight in filter when tapping for the 1st time
+  * Fixes: NB#182220 - Crash:Office tool crashes when opening view details for an email attached document 
+  * Fixes: NB#182889 - Accessing View menu from all page view is difficult for PDFs 
+  * Fixes: NB#184428 - Page number cannot be seen in all page view
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Thu, 12 Aug 2010 18:03:00 +0530
+
+office-tools (0.1-57) unstable; urgency=low
+
+  * Updated unit test cases for pdfloader and pdfloaderthread
+  * Fixes: NB#183714 - Cannot search in spreadsheets
+  * Fixes: NB#184543 - Both 'Favorite/ Unmark as favorite' options are available in share/delete subview object menu
+  * Fixes: NB#184534 - Office tools crashes on tapping on object menu items in share/delete sub view
+  * Fixes: NB#184588 - Cannot share/delete from Filter sub views object menu
+  * Fixes: NB#183332 - While loading large files, performing any operation crashes the application
+
+ -- Murugappan Nataraj <murugappan.nataraj@nokia.com>  Wed, 11 Aug 2010 19:00:00 +0530
+
+office-tools (0.1-56) unstable; urgency=low
+
+  * Removed refreshing of model when files are deleted as this causes a hang
+    because of the bug 184441. 
+  * Fixes: NB#184528 - Office tools application hangs often
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Wed, 11 Aug 2010 11:40:46 +0530
+
+office-tools (0.1-55) unstable; urgency=low
+
+  * Fixes: NB#172586 - Metabug: Row and column indicators
+  * Fixed list refresh issue when files are deleted
+  * Added markall and unmark all options to the subviews
+  * Fixes: NB#184415 - The delete function is not available on Documents application
+  * Updated officeviewerword to handle url links
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Tue, 10 Aug 2010 10:22:00 +0530
+
+office-tools (0.1-54) unstable; urgency=low
+
+  * Fixes: NB#158659 - Launching of browser from office-tools is tricky
+  * Delete multiple feature implemented but has the following known issues
+    Confirmation dialog not displayed and View is not refreshed till
+    application restart.
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Fri, 06 Aug 2010 18:22:00 +0530
+
+office-tools (0.1-53) unstable; urgency=low
+ 
+  * Fixes: NB#172232 - The scrolling of files is not smooth.
+  * Fixes: NB#182950 - Opening large document should show progress indicator.
+  * Fixes: NB#180834 - A blank screen is displayed before opening large PDF files
+  * Fixes: NB#173646 - Documents getting launched very slowly.
+  * Fixes: NB#181650 - Office tool crashed while opening PDF document
+  * Fixes: NB#177615 - Scrolling in PDF All pages view is not smooth.
+  * Fixes: NB#167004 - Default PDF jumps to wrong page in all page view
+
+ -- Mani <manikandaprasad.chandrasekar@nokia.com>  Thu, 05 Aug 2010 11:52:00 +0530
+
+office-tools (0.1-52) unstable; urgency=low
+
+  * Partial implementation of delete multiple documents.
+  * Integration with latest koffice
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Tue, 03 Aug 2010 19:40:46 +0530
+
+office-tools (0.1-51) unstable; urgency=low
+
+  * Sharing multiple documents implemented.
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Fri, 30 Jul 2010 10:55:46 +0530
+
+office-tools (0.1-50) unstable; urgency=low
+
+  * Fixes: NB#182056 - Details view launches incorrectly for a file 
+  * Fixes: NB#181304 - Files not launched on tapping in front page view 
+  * Fixes: NB#180307 - The file selection toggles on long taping a file.
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Wed, 28 Jul 2010 14:20:00 +0530
+
+office-tools (0.1-49) unstable; urgency=low
+
+  * Fixes: NB#180167 - office files shows 'front page' when launched from Contentmanager
+  * Fixes: NB#180577 - Page number in the files (e.g. PDF) shows "??/??" marks
+  * Fixes: NB#172305 - Cannot search in portrait mode in office tools
+  * Fixes: NB#170254 - A blank screen is displayed on minimizing a file in home screen
+  * Fixes: NB#179478 - Office Tools : Logical String for share $qtn_comm_share$ is not translated
+  * Fixes: NB#182090 - File name not displayed in All pages view for a file opened as an email attachment
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Tue, 27 Jul 2010 11:20:00 +0530
+
+office-tools (0.1-48) unstable; urgency=low
+
+  * Fixes: NB#181165 - Office-Tools crash while tapping on "All Pages" icon on any attachment document opened from E-Mail application
+  * Fixes: NB#179093 - Error message: Message 'No documents' does not show when there are no files
+  * Fixes: NB#172350 - Metabug: Cancelling opening a large file
+  * Fixes: NB#181139 - Name of File not displayed when opening an attachment from a mail
+  * Fixes: NB#181379 - Frontpage view does not list item when language set to Arabic
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Wed, 21 Jul 2010 14:21:46 +0530
+
+office-tools (0.1-47) unstable; urgency=low
+
+  * Fixes: NB#174714 - Highlighted strings remain on returning to viewer view from find view in spreadsheet
+  * Fixes: NB#180368  - Office tools app: menu title isn't changed for different file types
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Mon, 20 Jul 2010 14:15:00 +0530
+
+office-tools (0.1-46) unstable; urgency=low
+
+  * Fixes: NB#170891 - Zoom level value changes to previous from user defined
+  * Changed usage of tracker info of isContent Encrypted to all files types.
+     In case if tracker fails to inform the same using the error returned by 
+     filter to show Password protected info banner.
+  * Added a check while setting lastAccessede time for a case where a
+     document opened is not yet indexed  by tracker
+  * Fixes: NB#180710 - office-tools crash while trying to open any document in E-Mail attachment view
+  * Fixes: NB#176490 - Share UI does not launch from front page object menu 
+  * Fixes: NB#178774 - Cannot share files from office
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Mon, 19 Jul 2010 14:15:00 +0530
+
+office-tools (0.1-45) unstable; urgency=low
+
+  * Fixes: NB#179093 - Error message: Message 'No documents' does not show when there are no files
+  * Fixes: NB#174448 - METABUG : The name of the currently open file should be displayed in the view menu label
+  * Fixes: NB#180238 - File opens on Long tapping a thumbnail
+  * Changed how object menu is added to the viewer page and also added
+    notification of fav setting change to viewer aswell to update the
+    mark/unmark dynamically.
+  * Fixes: NB#179202 - The favorite option in viewer view does not change
+  * Fixes: NB#179518 - Viewer view object menu does not launch
+  * Fixes: NB#172291 - Not possible to open PDF files with russian-arabic names
+  * Fixes: NB#174432 - Metabug: A Progress indicator should be displayed if a process takes more than 2 seconds
+  * Fixes: NB#178943 - Progress indicator does not always show when opening large files
+  * Fixes: NB#180589 - File does not get selected in the 1st instance
+  * Fixes: NB#174201 - Details dialog vanishes when screen is dimmed
+  * Fixes: NB#174206 - File download/last accessed details are not correct in details dialog
+  * Fixes: NB#174214 - Spreadsheet behaves oddly during search
+  * Fixes: NB#174684 - Tapping Multiple office files closes the previous instance of file launched from CM
+  * Fixes: NB#176310 - %L1" is shown in Office Tools settings
+  * Fixes: NB#176436 - Office tools crashes on marking a file as favorite
+  * Fixes: NB#177144 - Office tools app: hardcoded text for file type selection 
+  * Fixes: NB#177146 - Files cant be unmarked as Favorite using the filter object menu. 
+  * Fixes: NB#177606 - Details dialog cannot be opened from viewer view
+  * Fixes: NB#178032 - Details dialog shows different thumbnails when accessed from different views
+  * Fixes: NB#178227 - The Favorite icon does not update
+  * Fixes: NB#178917 - File does not highlight on long tapping
+  * Fixes: NB#179513 - File size is shown wrongly in details dialog
+  * Fixes: NB#179676 - office-tools crashes in MSceneWindow::windowType
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Fri, 16 Jul 2010 11:20:00 +0530
+
+office-tools (0.1-44) unstable; urgency=low
+
+  * Fixes: NB#179190 - Multiple files get highlighted in front page view
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Wed, 14 Jul 2010 17:53:00 +0530
+
+office-tools (0.1-43) unstable; urgency=low
+   
+  * Fixes: NB#178217 - The thumbnails for the files take a while to load on opening front page view 
+     Updated logical strings for spreadsheet indicators
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Wed, 14 Jul 2010 11:52:00 +0530
+
+office-tools (0.1-42) unstable; urgency=low
+   
+  * Fixes: NB#179260 - Office Tools app: logical names in document details 
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Mon, 12 June 2010 18:08:00 +0530
+
+office-tools (0.1-41) unstable; urgency=low
+
+  * Fixes: NB#163240 - Presenter: Page number does not display on scrolling in portrait mode
+  * Using QSettings for storing favorite list and handling the
+    marking/checking of favotites from the static functions of DocumentModel
+
+ -- Seshasai Kuchimanchi <seshasai.3.kuchimanchi@nokia.com>  Thu, 08 Jul 2010 19:06:00 +0530
+
+office-tools (0.1-40) unstable; urgency=low
+
+   * Fixes: NB#178195 - Cannot zoom out to all page view
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia@nokia.com>  Wed, 07 Jul 2010 14:40:00 +0530
+
+office-tools (0.1-39) unstable; urgency=low
+
+   * Fixes: NB#173182 - Error message:Inform user when trying to open a corrupted file
+   * Fixes: NB#177123 - office-tools crashes in Poppler::Document::numPages when Secured PDF launched from CM
+   * Fixes: NB#177606 - Details dialog cannot be opened from viewer view
+   * Updated AllPagesView icon in toolbar as per UI spec which states allpages view can be launched only from toolbar and not from page indicator label.
+   * Updated Viewer View menu, All Pages view menu and Toolbar as per UI spec.
+   
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia@nokia.com>  Fri, 02 Jul 2010 19:00:00 +0530
+
+office-tools (0.1-38) unstable; urgency=low
+
+   * Included Boud's performance changes 
+   * Fixes: NB#177337 - QTN Name for unmark as favorite is incorrect
+   * Fixes: NB#176485 - Details cant be viewed through front page object menu
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia@nokia.com>  Wed, 30 June 2010 20:15:00 +0530
+
+office-tools (0.1-37) unstable; urgency=low
+
+   * Fixes: NB#173176 - Error message:Inform user when the tracker has yet not indexed any data
+   * Fixes: NB#173404 - Opening the attached file from CM when the is already open,opens front page view
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia@nokia.com>  Tue, 29 June 2010 17:50:00 +0530
+
+office-tools (0.1-36) unstable; urgency=low
+
+   * Fixes: NB#175692 - office-tools crashes in Poppler::Document::numPages
+   * Fixes: NB#173157 - Error message:Inform user when trying to open deleted files
+   * Fixes: NB#160185 - Fit to page from last page displays blank screen in documents 
+   * Fixes: NB#169115 - Unlocalized application name in application grid 
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Thu, 24 June 2010 18:15:00 +0530
+
+office-tools (0.1-35) unstable; urgency=low
+
+   * Fixes: NB#174199 -  Filesize is shown in wrong format in details dialog
+   * Updated the localization strings
+   * Fixes: NB#172636 - METABUG: User should be able to mark/unmark as favourites for a file
+   * Implemented: SWP#HAOFV-383 - User should be able to mark favorite documents so that these documents can be easily accessed in later sessions.
+   * Fixes: NB#173165 - Info label: Maximum and minimum zoom limit
+   * Fixes: NB#176308 - Office UI contain some logical name (qtn_offi_share_multiple)
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Tue, 22 June 2010 16:36:00 +0530
+
+office-tools (0.1-34) unstable; urgency=low
+
+  * Fixes: NB#174216 - Office files do not launch gracefully
+  * Fixes: NB#174214 - Spreadsheet behaves oddly during search
+  * Fixes: NB#172359 - Tracker should not recognize files which don't end as .txt as documents
+  * Fixes: NB#167930 - Text is displayed out of cells for spreadsheets
+
+ -- Mani <manikandaprasad.chandrasekar@nokia.com>  Sat, 08 June 2010 11:52:00 +0530
+
+office-tools (0.1-33) unstable; urgency=low
+
+  * Restructured document detail as per libqttracker implementation
+  * Fixes: NB#169290 - Details dialog does not show the author name of a file
+  * Updated the thumbnail image of the document in detail view.
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Fri, 11 June 2010 20:15:00 +0530
+
+office-tools (0.1-32) unstable; urgency=low
+
+  * Implemented: SWP#HAOFV-383 - User should be able to search inside a Spreadsheet document.
+  * Fixes: NB#164881  -  Search does not function in Spreadsheets.
+  * Fixes: NB#173163  -  Error message: No matches for a searched string within a file.
+
+ -- Amit <amit.5.aggarwal@nokia.com>  Sat, 10 June 2010 11:52:00 +0530
+
+office-tools (0.1-31) unstable; urgency=low
+
+  * Fixes: NB#166106 -  All pages view displayed when zoom level set to "Fit to page" for a PDF.
+  * Fixes: NB#170589 -  PDF shows all page view on changing to portrait mode.
+  * Fixes: NB#170441 -  Zoom level does not toggle properly for Office files.
+  * Fixes: NB#169859 - Close button should be available on opening office files from other applications
+  * Implemented: SWP#HAOFV-743 - User should always be able to access the Front Page View while application is running
+
+ -- Mani <manikandaprasad.chandrasekar@nokia.com>  Sat, 08 June 2010 11:52:00 +0530
+
+office-tools (0.1-30) unstable; urgency=low
+
+  * Fixes: NB#171486 - office-tools" crashes in "QList<QString>" when app is launched 
+  * Fixes: NB#172532 -  office-tools crashes in DocumentModel::data
+
+ -- Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>  Fri, 04 June 2010 11:52:00 +0530
+
+office-tools (0.1-29) unstable; urgency=low
+  
+  * Implemented: SWP#HAOFV-715 - Localize missing things.
+  * Fixes: NB#170470 - Contradicting behavior regarding opening a .log file
+  * Fixes: NB#170569 - Office tools crashes on closing PDF files that are not recognised
+  * Fixes: NB#169530 -  Page numbers displayed in reverse format.
+  * Fixes: NB#170345 -  Large PDF files crash on launching in portrait mode.
+  * Restructured tracking detail information for Document Detail View
+  * Fixes: NB#165709 - Scrolling doesnt work for Presentations
+  * Fixes: NB#162521 - Display is set to first page on setting 'fit to page'
+  * Implemented: SWP#HAOFV-314 - Add Unique Object IDs so that Matti Testcases can be created
+  * Fixes: NB#158886 - Translations Broken in office tools
+  * Fixes: NB#167927 - Back/Close button is not consistent in viewer view
+  * Fixes: NB#167937 - Fenix: Excel files (.xls) as attachments are not opened in their default application
+  * Fixes: NB#169115 - Unlocalized application name in application grid
+  * Fixes: NB#169754 - office-tools crashes while try to open with invalid file
+  * Implemented: SWP#HAOFV-645 - User should be able to search inside a Presenation.
+  * Adding changes to remove presentation scroll bar(putting value off).
+  * Implemented: SWP#HAOFV-644 - User should be able to search inside a word document.
+  * Adding page number display and current page search changes in word find functionality.
+  * Fixes: NB#170501 -  Office tools crashes on opening password protected PDFs.
+  * Adding changes to fix crash issue.
+
+ -- Murugappan <murugappan.nataraj@nokia.com>  Fri, 04 June 2010 09:14:00 +0100
+
+office-tools (0.1-28) unstable; urgency=low
+
+  * Fixes: NB#162530 - Current page indicator in all pages view is not proper
+  * Fixes: NB#165621 - Text gets selected on scrolling PDF
+  * Adding Find dialog changes as per UI 1.0 spec
+  * Fixes: NB#164827 - find icon on the toolbar,the next/previous button are not displayed correctly.
+  * Adding error log message in case of match found for pdf
+  * Implemented: SWP#HAOFV-382 - User should be able to search inside a PDF document.
+  * Implemented: SWP#HAOFV-377 - User sould be able to see the main view after launching the application
+  * Implemented: SWP#HAOFV-611 - User should be able to experience a clear page indicatorin All Pages view
+
+ -- Mani <manikandaprasad.chandrasekar@nokia.com>  Fri, 14 May 2010 09:14:00 +0100
+
+office-tools (0.1-27) unstable; urgency=low
+
+  * Fixes: NB#167905 -  Office-tools crashes while closing
+  * Fixes: NB#167922 -  Scrolling cant be done beyond 1st page for any format.
+  * Fixes: NB#167783 -  Office tools crashes on changing row and column indicators
+
+ -- Amit <amit.5.aggarwal@nokia.com>  Mon, 10 May 2010 09:14:00 +0100
+
+office-tools (0.1-26) unstable; urgency=low
+
+  * Fixes: NB#166147 - Wrong logical ID for powerpoint 2007 file type
+  * Fixes: NB#166986 - Files with spaces in filename do not open in appln
+  * Fixes: NB#161706 - Dbus API needed for default action implementation
+  * Implemented Favorite selection code
+  * Modification to Spreadsheet, Now it works lot better!!
+  * Implemented Viewer Object Menu
+  * Implemented: SWP#HAOFV-458 - User should be able to zoom a word document using gestures
+  * Updated the ut test case.
+  * Fixes: NB#163553 - Title of presentation files is wrong. 
+  * Fixes: NB#166120 - Front page sub view should not have filtering options
+  * Fixes: NB#163549 - End of sheet is not implemented for spreadsheets
+  * Adding changes to old or renamed API's and signal in new meegotouch.
+  * Implemented: SWP#HAOFV-456 - User should be able to zoom a spreadsheet document using gestures
+  * Adding crash changes to combobox allpagesview.
+  * Adding cleanup changes for actionpool and dualactionbutton.
+  * Fixes: NB#163797 -  Documents crash on closing after changing zoom level
+  * Fixes: NB#166135 -  The UI string on the Sorting button is displayed incorrectly.
+
+ -- Murugappan <murugappan.nataraj@nokia.com>  Mon, 10 May 2010 09:14:00 +0100
+
+office-tools (0.1-25) unstable; urgency=low
+
+  * Removed Help menu from Viewer View menu
+  * Added Document details view
+  * Implemented: SWP#HAOFV-298 - User should be able to zoom a PDF document using gestures
+  * Implemented: SWP#HAOFV-457 - User should be able to zoom a Presentation document using gestures
+  * Added filter slection dialog
+  * Added Front page application menu
+  * Added Gesture zoom support
+  * Added file sorting
+  * Fixes: NB#165292 - Wrong files open when launching with filter option
+  * Fixes: NB#165321 - The file type for DOCX files is not displayed
+  * Fixes: NB#165318 - Microsoft word 2007 format is not recognised in filters
+  * Adding favourites icon to Document item
+  * Fixes: NB#165316 - Office application crashes on clicking the share button
+  * Adding Object menu to Front page view
+
+ -- Mani <manikandaprasad.chandrasekar@nokia.com>  Wed, 20 Apr 2010 09:14:00 +0100
+
+office-tools (0.1-24) unstable; urgency=low
+
+  * Adapting to meegotouch
+  * Frontpage view for office tools 
+  * Adapting to libdui0.20
+  * Adding sorting icon to toolbar
+
+ -- Mani <manikandaprasad.chandrasekar@nokia.com>  Wed, 16 Apr 2010 09:14:00 +0100
+
+office-tools (0.1-23) unstable; urgency=low
+
+  * Implemented: SWP#HAOFV-387 - viewer menu presentation
+  * Implemented: SWP#HAOFV-386 - viewer menu kword
+  * Implemented: SWP#HAOFV-388 - viewer menu pdf
+  * Implemented: SWP#HAOFV-385 - viewer menu spreadsheet
+  * Fixes: NB#159343 - Find Icon missing
+  * Implemented: SWP#HAOFV-410 - All Pages view menu - PDF
+  * Implemented: SWP#HAOFV-411 - All Pages view menu - Word
+  * Implemented: SWP#HAOFV-412 - All Pages view menu - Spreadsheet 
+  * Implemented: SWP#HAOFV-413 - All Pages view menu - Presentations
+ 
+ -- Amit <amit.5.aggarwal@nokia.com>  Wed, 29 Mar 2010 09:14:00 +0100
+
+office-tools (0.1-22) unstable; urgency=low
+
+  * Fixes: NB#161521 - VKB stays alive after closing "Find" option.
+  * Fixes: NB#163348 - office tools icon missing
+
+ -- Amit <amit.5.aggarwal@nokia.com>  Wed, 29 Mar 2010 09:14:00 +0100
+
+office-tools (0.1-21) unstable; urgency=low
+
+  * Implemented: SWP#HAOFV-350 - Implemented unit test cases for Spreadsheet 
+  * Re-implemented Spreadsheet UI as per latest UI design.
+  * All pages view for spreadsheet with thumbnails.
+  * Fix NB#152660 - Kspread does not render sheets correctly
+  * Fix NB#160650 - Page number is displayed wrongly for Word documents.
+  * Fix NB#159532 - coverity defects
+  * Fix NB#161029 - ui strings now displayed
+  * Fix NB#158886 - translations broken
+
+ -- M C <manikandaprasad.chandrasekar@nokia.com>  Wed, 17 Mar 2010 09:14:00 +0100
+
+office-tools (0.1-20) unstable; urgency=low
+
+  * Fixes: NB#158256 - search not working ,Refactoring of find algorithm
+  * Fixes: NB#154524 - Kspread seg fault
+
+ -- M C <manikandaprasad.chandrasekar@nokia.com>  Fri, 12 Mar 2010 09:14:00 +0100
+
+office-tools (0.1-19) unstable; urgency=low
+
+  * Changed installation of ksyscoca4 to another package. 
+  * Fixes: NB#154767 - A3 portait pages
+  * Fixes: NB#156428 - Screen gets blurred
+
+ -- M C <manikandaprasad.chandrasekar@nokia.com>  Tue, 10 Mar 2010 09:14:00 +0100
+
+office-tools (0.1-18) unstable; urgency=low
+  
+  * Fixes: NB#155600 - Incorrect Maximum zoom with PPT,PPTX and ODP files.
+  * Fixes: NB#157080 - Screen gets blurred on Continuous zoom in - Portrait mode
+
+ -- N C <manikandaprasad.chandrasekar@nokia.com>  Tue, 24 Feb 2010 09:14:00 +0100
+
+office-tools (0.1-17) unstable; urgency=low
+
+  * Fixes: NB#155600 - Incorrect Maximum zoom with PPT,PPTX and ODP files.
+  * Fixes: NB#155599 - Incorrect Default zoom with PPT,PPTX and ODP files.
+  * Fixes: NB#155467 - Able to edit presentations in office tools
+  * Fixes: NB#149343 - Display is blurred while entering text in find dialog.
+  * Fixes: NB#148602 - The device hangs when search is carried out
+  * Fixes: NB#155451 - Searched strings are not properly displayed
+  * Fixes: NB#156786 - Failing CITA test cases
+  * Fixes: NB#154730 - Device reboots after launching .xls file
+
+ -- amit <amit.5.aggarwal@nokia.com>  Mon, 16 Feb 2010 09:14:00 +0100
+
+office-tools (0.1-16) unstable; urgency=low
+
+  * Fixes: NB#155241 - Adding changes for debug package
+  * Fixes: NB#155454 - Find dialog is hidden in portrait mode
+  * Fixes: NB#156054 - office tools package is missing section field
+  * Fixes: NB#155068 - Incorrect page numbers in portrait mode
+  * Applied Pauli's patch for go to page in KWord and zoom in spreadsheet
+
+ -- N C <manikandaprasad.chandrasekar@nokia.com>  Tue, 14 Feb 2010 09:14:00 +0100
+
+office-tools (0.1-15) unstable; urgency=low
+
+  * Updated code to compile with latest koffice.
+
+ -- N C <manikandaprasad.chandrasekar@nokia.com>  Tue, 26 Jan 2010 09:14:00 +0100
+
+office-tools (0.1-14) unstable; urgency=low
+
+  * Made spreadsheet to have multisheet view
+  * Updated the supported mime types (file extensions) 
+
+ -- N C <manikandaprasad.chandrasekar@nokia.com>  Tue, 26 Jan 2010 09:14:00 +0100
+
+office-tools (0.1-13) unstable; urgency=low
+
+  * Changes for libdui 0.18 compatibility
+
+ -- N C <manikandaprasad.chandrasekar@nokia.com>  Fri, 22 Jan 2010 16:10:02 +0100
+
+office-tools (0.1-12) unstable; urgency=low
+
+  * Fixes: NB#151205 - Unable to launch documents other than PDF in Office Tools
+  * Fixes: NB#151180 - Alignment is not proper with 100% Zoom 
+
+ -- Pauli Kauppinen <pauli.kauppinen@ixonos.com>  Thu, 14 Jan 2010 13:55:50 +0100
+
+office-tools (0.1-11) unstable; urgency=low
+
+  * Fixes: NB#152694 - PR image includes office-tools/data/presentation.pdf wasting 1.7MB of space
+  * Added a launch icon 
+  * Re-implemented all pages view
+  * Re-implemented action handling
+  * Fixed background loader thread releasing
+  * Fixes: NB#151206 - Full screen mode is not displayed in Office Tools 
+  * Fixes: NB#151494 - ksycoca path to be corrected
+  * Fixes: NB#151494 - section parameter to be changed
+
+ -- Pauli Kauppinen <pauli.kauppinen@ixonos.com>  Fri, 18 Dec 2009 09:52:36 +0100
+
+office-tools (0.1-10) unstable; urgency=low
+  * Fixes: NB#150368 - Not able to launch Office Tool UI 
+  * Implemented: SWP#HAOFV-223, SWP#HAOFV-14, SWP#-HAOFV-206, SWP#HAOFV-116, SWP#HAOFV-114, SWP#HAOFV-9, SWP#HAOFV-215
+
+ -- N C <manikandaprasad.chandrasekar@nokia.com>  Fri, 15 Dec 2009 16:10:02 +0100
+
+office-tools (0.1-9) unstable; urgency=low
+
+  * Fixes: NB#148557 - Documents not recognised by tracker
+  * Fixes: NB#142898 - Zooming not working for UI
+  * Changes related to libdui 0.16 
+  * Removed libdui 0.14 support
+  * Add new default pdf file
+  * Improved handling of near by pdf links
+  * Minor fix to show page
+  * All search results are highlighted in presenter and word files
+  * Add a workaround for libdui 0.16 bug #149318.
+
+ -- Pauli Kauppinen <pauli.kauppinen@ixonos.com>  Mon, 30 Nov 2009 15:44:18 +0100
+
+office-tools (0.1-8) unstable; urgency=low
+
+  * Improved pdf page loading (added threads)
+  * Improved handling of tapping of pdf link (point to area)
+  * Corrected orientation support
+
+ -- Pauli Kauppinen <pauli.kauppinen@ixonos.com>  Fri, 20 Nov 2009 15:29:22 +0100
+
+office-tools (0.1-7) unstable; urgency=low
+
+  * Fixes: NB#144417 - Application hangs in zoom view.
+
+ -- Pauli Kauppinen <pauli.kauppinen@ixonos.com>  Wed, 18 Nov 2009 10:35:10 +0100
+
+office-tools (0.1-6) unstable; urgency=low
+
+  * Implemented find functionality
+  * Fixed bugs : NB#145305
+ 
+ -- Amit <amit.5.aggarwal@nokia.com>  Mon, 16 Nov 2009 18:10:02 +0100
+
+office-tools (0.1-5) unstable; urgency=low
+
+  * New release
+ 
+ -- N C <manikandaprasad.chandrasekar@nokia.com>  Fri, 12 Nov 2009 16:10:02 +0100
+
+office-tools (0.1-4) unstable; urgency=low
+
+  * Fixed bugs : NB#140544 and NB#140539
+
+ -- N C <manikandaprasad.chandrasekar@nokia.com>  Fri, 30 Oct 2009 16:10:02 +0100
+
+office-tools (0.1-3) unstable; urgency=low
+
+  * new release
+
+ -- Lassi Nieminen <lassi.ta.nieminen@nokia.com>  Fri, 9 Oct 2009 14:44:44 +0200
+
+office-tools (0.1-2) unstable; urgency=low
+
+  * Office is launchable from UI
+
+ -- Lassi Nieminen <lassi.ta.nieminen@nokia.com>  Fri, 9 Oct 2009 14:44:44 +0200
+
+office-tools (0.1-1) unstable; urgency=low
+
+  * Initial release
+  * pdf-viewer that can be started from command line.
+  *
+  * To start pdf-viewer do
+      office-tools <file.pdf>
+
+ -- Lassi Nieminen <lassi.ta.nieminen@nokia.com>  Fri, 11 Sep 2009 12:44:06 +0200
+

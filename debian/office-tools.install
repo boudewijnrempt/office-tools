@@ -1,0 +1,7 @@
+usr/bin
+usr/share/applications
+usr/share/office-tools
+usr/share/dbus-1/services
+usr/share/themes
+usr/lib/liboffice*
+usr/lib/office-tools
